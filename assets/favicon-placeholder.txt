@@ -1,0 +1,4 @@
+# Placeholder for favicon.ico
+# Replace this with your actual favicon file
+# You can create a favicon at https://favicon.io/ or similar services
+# The favicon should represent your outdoor adventure brand

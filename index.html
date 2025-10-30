@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiked Adrenaline - Backpacking & Backcountry Hunting</title>
+    <meta name="description" content="Join me on epic outdoor adventures. Professional gear reviews, backpacking tips, and backcountry hunting insights from an experienced outdoorsman.">
+    <meta name="keywords" content="backpacking, backcountry hunting, outdoor gear, hiking, camping, hunting gear reviews">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Spiked Adrenaline - Backpacking & Backcountry Hunting">
+    <meta property="og:description" content="Join me on epic outdoor adventures. Professional gear reviews and outdoor insights.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spikedadrenaline.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual public key
+        })();
+    </script>
+    
+    <!-- Alternative: If using a contact service instead of EmailJS -->
+    <!-- <script src="https://web3forms.com/client/script.js" async defer></script> -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <i class="fas fa-mountain"></i>
+                    Spiked Adrenaline
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#adventures" class="nav-link">Adventures</a>
+                <a href="#gear" class="nav-link">Gear Reviews</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">SPIKED ADRENALINE</h1>
+            <p class="hero-subtitle">Pushing Limits in the Backcountry</p>
+            <p class="hero-description">Join me as I test the latest gear and explore the most challenging terrains. From backcountry hunting to extreme backpacking adventures.</p>
+            <div class="hero-buttons">
+                <a href="#adventures" class="btn btn-primary">Latest Adventures</a>
+                <a href="#gear" class="btn btn-secondary">Gear Reviews</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Passionate outdoorsman pushing gear to the limit</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Welcome to My Wild World</h3>
+                    <p>I'm an avid backpacker and backcountry hunter who thrives on pushing both myself and my gear to the absolute limit. Whether I'm trekking through rugged mountain terrain or tracking game in remote wilderness areas, I'm constantly testing the latest outdoor equipment in real-world conditions.</p>
+                    
+                    <p>My mission is to provide honest, field-tested reviews of outdoor gear while sharing the incredible adventures that come with life in the backcountry. Every piece of equipment I review has been put through its paces in challenging environments.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Miles Hiked</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Recommended Gear</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">19+</span>
+                            <span class="stat-label">Hunting Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./assets/about-me.jpg" alt="Outdoor adventurer in the wilderness" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Adventures -->
+    <section id="adventures" class="adventures">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Adventures</h2>
+                <p>Epic journeys and unforgettable experiences</p>
+            </div>
+            <div class="adventures-grid">
+                <article class="adventure-card">
+                    <div class="card-image">
+                        <img src="./assets/archery-2025.jpg" alt="Mountain archery adventure" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="adventure-type">Archery</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Archery 2025</h3>
+                        <p>This year I decided to start learning about archery elk season. It had always intrigued me, and it was time to dive in.</p>
+                        <a href="./adventures/archery-2025.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="adventure-card">
+                    <div class="card-image">
+                        <img src="./assets/opening-day.jpg" alt="Cliffed out spike camp" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="adventure-type">Rifle</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Opening Day of Rifle</h3>
+                        <p>We got to test the warmth of the hot tent as opening weekend brought in some chilly weather.</p>
+                        <a href="./adventures/opening-day-rifle.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="adventure-card">
+                    <div class="card-image">
+                        <img src="./assets/gear-matters.jpg" alt="Alpine climbing expedition" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="adventure-type">Backpacking</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Why Gear Matters</h3>
+                        <p>If there was one trip that made me start spending money on gear, it was this one. A brutal story I am lucky to tell.</p>
+                        <a href="./adventures/why-gear-matters.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gear Reviews Section -->
+    <section id="gear" class="gear-reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gear Reviews</h2>
+                <p>The gear I would never leave behind again. My top recommendations.</p>
+            </div>
+            <div class="gear-categories">
+                <button class="category-btn active" data-category="all">All Gear</button>
+                <button class="category-btn" data-category="backpacks">Backpacks</button>
+                <button class="category-btn" data-category="shelters">Shelters</button>
+                <button class="category-btn" data-category="hunting">Hunting Gear</button>
+                <button class="category-btn" data-category="clothing">Clothing</button>
+            </div>
+            <div class="gear-grid">
+                <article class="gear-card" data-category="backpacks">
+                    <div class="gear-image">
+                        <img src="./assets/pack.jpg" alt="Ultralight backpack review" loading="lazy">
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">5/5</span>
+                        </div>
+                    </div>
+                    <div class="gear-content">
+                        <h3>Kuiu PRO 3600 Pack</h3>
+                        <p>This pack is the perfect size for a quick weekend hunt. The compartments are handy, and the overall design is sleek and functional. Not to mention the weight it can carry!</p>
+                        <div class="gear-meta">
+                            <span class="price">$642</span>
+                            <div class="gear-links">
+                                <a href="./reviews/kuiu-pro-3600-review.html" class="review-link">Full Review</a>
+                                <a href="#" class="affiliate-link">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gear-card" data-category="shelters">
+                    <div class="gear-image">
+                        <img src="./assets/tipi.jpg" alt="Ultralight tent review" loading="lazy">
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">5/5</span>
+                        </div>
+                    </div>
+                    <div class="gear-content">
+                        <h3>PEAX Dyneema Solitude 4 Tipi</h3>
+                        <p>Lightweight shelter that withstood extreme weather during my alpine adventures. I'd trust this sturdy structure anywhere!</p>
+                        <div class="gear-meta">
+                            <span class="price">$1325</span>
+                            <div class="gear-links">
+                                <a href="./reviews/peax-dyneema-solitude-review.html" class="review-link">Full Review</a>
+                                <a href="#" class="affiliate-link">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gear-card" data-category="hunting">
+                    <div class="gear-image">
+                        <img src="./assets/stove.jpg" alt="Wood burning stove review" loading="lazy">
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">5/5</span>
+                        </div>
+                    </div>
+                    <div class="gear-content">
+                        <h3>Winnerwell Fastfold Titanium Stove</h3>
+                        <p>Having a stove to supply you with unlimited heat is the ultimate luxury in the backcountry. If you've thought about going home early because of the cold, this stove will change your mind.</p>
+                        <div class="gear-meta">
+                            <span class="price">$499</span>
+                            <div class="gear-links">
+                                <a href="./reviews/winnerwell-stove-review.html" class="review-link">Full Review</a>
+                                <a href="#" class="affiliate-link">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsorship CTA -->
+    <section class="sponsorship-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Partner With Me</h2>
+                <p>Looking to showcase your gear to serious outdoor enthusiasts? Let's collaborate on authentic, field-tested reviews that drive results.</p>
+                <a href="#contact" class="btn btn-primary">Sponsorship Opportunities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Posts</h2>
+                <p>Tips, tricks, and insights from the field</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="./assets/1.jpg" alt="Essential backcountry shelter system" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="date">Oct 25, 2025</span>
+                            <span class="category">Gear Systems</span>
+                        </div>
+                        <h3>The 3-Piece System That Saved My Life at 11,500 Feet</h3>
+                        <p>When your shelter fails in 60+ mph winds, you learn why premium gear isn't luxury - it's survival insurance. Here's the complete system that's never let me down.</p>
+                        <a href="adventures/why-gear-matters.html" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="./assets/2.jpg" alt="Cold weather hunting success" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="date">Oct 20, 2025</span>
+                            <span class="category">Hunting</span>
+                        </div>
+                        <h3>How $2,466 in Gear Enabled Success When 90% Quit</h3>
+                        <p>Opening weekend in Colorado hit -18°F with brutal winds. While other hunters packed up and left, we stayed and filled our tags. Here's the gear that made the difference.</p>
+                        <a href="adventures/opening-day-rifle.html" class="read-more">Read Hunt Story</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="./assets/3.jpg" alt="Archery hunting success story" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="date">Oct 15, 2025</span>
+                            <span class="category">Success Stories</span>
+                        </div>
+                        <h3>First Light Success: The Complete Gear System That Delivered</h3>
+                        <p>From base camp setup to the final shot at 287 yards - discover the three essential pieces that enabled this perfect archery hunt and how they work together.</p>
+                        <a href="adventures/archery-2025.html" class="read-more">See the Hunt</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to collaborate or have questions about my adventures?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>adventures@spikedadrenaline.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-handshake"></i>
+                        <div>
+                            <h4>Sponsorships</h4>
+                            <p>Looking for authentic gear testing and reviews</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-camera"></i>
+                        <div>
+                            <h4>Content Creation</h4>
+                            <p>Professional photography and videography available</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Web3Forms Access Key - Replace with your actual key -->
+                    <input type="hidden" name="access_key" value="e79534b4-1ab2-4688-b630-6ef3aa6960cd">
+                    
+                    <!-- Redirect to thank you page -->
+                    <input type="hidden" name="redirect" value="https://spikedadrenaline.com/thank-you.html">
+                    
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" name="subject" required>
+                            <option value="">Select Subject</option>
+                            <option value="sponsorship">Sponsorship Opportunity</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="gear-question">Gear Question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    
+                    <!-- Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    
+                    <button type="submit" class="btn btn-primary" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-spinner fa-spin" id="loading-spinner" style="display: none;"></i>
+                    </button>
+                    <div id="form-status" style="margin-top: 1rem; text-align: center; display: none;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Spiked Adrenaline</h4>
+                    <p>Pushing limits in the backcountry since day one.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#adventures">Adventures</a></li>
+                        <li><a href="#gear">Gear Reviews</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Backpacking</a></li>
+                        <li><a href="#">Hunting</a></li>
+                        <li><a href="#">Gear Testing</a></li>
+                        <li><a href="#">Photography</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Get notified about new adventures and gear reviews.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Spiked Adrenaline. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Affiliate Disclosure</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
