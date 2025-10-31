@@ -3,433 +3,576 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spiked Adrenaline - Backpacking & Backcountry Hunting</title>
-    <meta name="description" content="Join me on epic outdoor adventures. Professional gear reviews, backpacking tips, and backcountry hunting insights from an experienced outdoorsman.">
-    <meta name="keywords" content="backpacking, backcountry hunting, outdoor gear, hiking, camping, hunting gear reviews">
-    
-    <!-- Open Graph for social sharing -->
-    <meta property="og:title" content="Spiked Adrenaline - Backpacking & Backcountry Hunting">
-    <meta property="og:description" content="Join me on epic outdoor adventures. Professional gear reviews and outdoor insights.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://spikedadrenaline.com">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Spiked Adrenaline - Coming Soon</title>
+    <meta name="description" content="Spiked Adrenaline - Epic outdoor adventures, gear reviews, and backcountry hunting content coming soon!">
     
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     
-    <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual public key
-        })();
-    </script>
-    
-    <!-- Alternative: If using a contact service instead of EmailJS -->
-    <!-- <script src="https://web3forms.com/client/script.js" async defer></script> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(135deg, #1a3d1a 0%, #2c5530 50%, #1a3d1a 100%);
+            color: white;
+            overflow-x: hidden;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* Animated background elements */
+        .bg-elements {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .mountain {
+            position: absolute;
+            opacity: 0.1;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .mountain1 {
+            top: 20%;
+            left: 10%;
+            font-size: 3rem;
+            animation-delay: 0s;
+        }
+
+        .mountain2 {
+            top: 60%;
+            right: 15%;
+            font-size: 2.5rem;
+            animation-delay: 2s;
+        }
+
+        .mountain3 {
+            bottom: 30%;
+            left: 20%;
+            font-size: 2rem;
+            animation-delay: 4s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Main container */
+        .container {
+            position: relative;
+            z-index: 10;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Logo and title */
+        .logo {
+            margin-bottom: 2rem;
+            animation: slideInDown 1s ease-out;
+        }
+
+        .logo i {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+            text-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #fff, #4CAF50);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: slideInDown 1s ease-out 0.2s both;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 3rem;
+            animation: slideInDown 1s ease-out 0.4s both;
+        }
+
+        /* Main content */
+        .main-content {
+            max-width: 800px;
+            animation: slideInUp 1s ease-out 0.6s both;
+        }
+
+        .coming-soon {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #4CAF50;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+        }
+
+        /* Features grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature i {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+
+        .feature h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .feature p {
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        /* Newsletter signup */
+        .newsletter {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 2.5rem;
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 3rem;
+        }
+
+        .newsletter h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+
+        .newsletter p {
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 1rem;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .newsletter input {
+            flex: 1;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .newsletter button {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            background: #4CAF50;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .newsletter button:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
+        }
+
+        /* Launch timeline */
+        .timeline {
+            text-align: left;
+            max-width: 500px;
+            margin: 0 auto 3rem;
+        }
+
+        .timeline h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+
+        .timeline-item i {
+            color: #4CAF50;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Social media */
+        .social {
+            margin-top: 2rem;
+        }
+
+        .social h4 {
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .social-links a:hover {
+            background: #4CAF50;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
+        }
+
+        /* Progress bar */
+        .progress-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .progress-label {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #45a049);
+            width: 85%;
+            border-radius: 5px;
+            animation: progressFill 2s ease-out;
+        }
+
+        @keyframes progressFill {
+            from { width: 0%; }
+            to { width: 85%; }
+        }
+
+        .progress-text {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Animations */
+        @keyframes slideInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .coming-soon {
+                font-size: 2rem;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .coming-soon {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">
+    <!-- Animated background elements -->
+    <div class="bg-elements">
+        <div class="mountain mountain1"><i class="fas fa-mountain"></i></div>
+        <div class="mountain mountain2"><i class="fas fa-tree"></i></div>
+        <div class="mountain mountain3"><i class="fas fa-hiking"></i></div>
+    </div>
+
+    <div class="container">
+        <!-- Logo and title -->
+        <div class="logo">
+            <i class="fas fa-mountain"></i>
+            <h1>Spiked Adrenaline</h1>
+            <p class="tagline">Pushing limits in the backcountry since day one</p>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <h2 class="coming-soon">Something Epic is Coming</h2>
+            <p class="description">
+                Get ready for the ultimate outdoor adventure destination. I'm building something special for fellow backcountry enthusiasts - a place where authentic gear reviews meet real-world adventure stories.
+            </p>
+
+            <!-- Progress bar -->
+            <div class="progress-container">
+                <div class="progress-label">Website Progress</div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">85% Complete - Launching Soon!</div>
+            </div>
+
+            <!-- Features -->
+            <div class="features">
+                <div class="feature">
                     <i class="fas fa-mountain"></i>
-                    Spiked Adrenaline
-                </a>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#adventures" class="nav-link">Adventures</a>
-                <a href="#gear" class="nav-link">Gear Reviews</a>
-                <a href="#blog" class="nav-link">Blog</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="hero-overlay"></div>
-        </div>
-        <div class="hero-content">
-            <h1 class="hero-title">SPIKED ADRENALINE</h1>
-            <p class="hero-subtitle">Pushing Limits in the Backcountry</p>
-            <p class="hero-description">Join me as I test the latest gear and explore the most challenging terrains. From backcountry hunting to extreme backpacking adventures.</p>
-            <div class="hero-buttons">
-                <a href="#adventures" class="btn btn-primary">Latest Adventures</a>
-                <a href="#gear" class="btn btn-secondary">Gear Reviews</a>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <i class="fas fa-chevron-down"></i>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About Me</h2>
-                <p>Passionate outdoorsman pushing gear to the limit</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Welcome to My Wild World</h3>
-                    <p>I'm an avid backpacker and backcountry hunter who thrives on pushing both myself and my gear to the absolute limit. Whether I'm trekking through rugged mountain terrain or tracking game in remote wilderness areas, I'm constantly testing the latest outdoor equipment in real-world conditions.</p>
-                    
-                    <p>My mission is to provide honest, field-tested reviews of outdoor gear while sharing the incredible adventures that come with life in the backcountry. Every piece of equipment I review has been put through its paces in challenging environments.</p>
-                    
-                    <div class="stats">
-                        <div class="stat-item">
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">Miles Hiked</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">10+</span>
-                            <span class="stat-label">Recommended Gear</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">19+</span>
-                            <span class="stat-label">Hunting Seasons</span>
-                        </div>
-                    </div>
+                    <h3>Epic Adventures</h3>
+                    <p>Follow my backcountry hunting and backpacking expeditions where I push gear to its absolute limits.</p>
                 </div>
-                <div class="about-image">
-                    <img src="./assets/about-me.jpg" alt="Outdoor adventurer in the wilderness" loading="lazy">
+                <div class="feature">
+                    <i class="fas fa-tools"></i>
+                    <h3>Honest Gear Reviews</h3>
+                    <p>No-BS reviews of outdoor equipment tested in the harshest conditions. Only the gear that actually works.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-camera"></i>
+                    <h3>Authentic Content</h3>
+                    <p>Real stories, real photos, real experiences from someone who lives and breathes the outdoor lifestyle.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Featured Adventures -->
-    <section id="adventures" class="adventures">
-        <div class="container">
-            <div class="section-header">
-                <h2>Latest Adventures</h2>
-                <p>Epic journeys and unforgettable experiences</p>
-            </div>
-            <div class="adventures-grid">
-                <article class="adventure-card">
-                    <div class="card-image">
-                        <img src="./assets/archery-2025.jpg" alt="Mountain archery adventure" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="adventure-type">Archery</span>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h3>Archery 2025</h3>
-                        <p>This year I decided to start learning about archery elk season. It had always intrigued me, and it was time to dive in.</p>
-                        <a href="./adventures/archery-2025.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-
-                <article class="adventure-card">
-                    <div class="card-image">
-                        <img src="./assets/opening-day.jpg" alt="Cliffed out spike camp" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="adventure-type">Rifle</span>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h3>Opening Day of Rifle</h3>
-                        <p>We got to test the warmth of the hot tent as opening weekend brought in some chilly weather.</p>
-                        <a href="./adventures/opening-day-rifle.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-
-                <article class="adventure-card">
-                    <div class="card-image">
-                        <img src="./assets/gear-matters.jpg" alt="Alpine climbing expedition" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="adventure-type">Backpacking</span>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h3>Why Gear Matters</h3>
-                        <p>If there was one trip that made me start spending money on gear, it was this one. A brutal story I am lucky to tell.</p>
-                        <a href="./adventures/why-gear-matters.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gear Reviews Section -->
-    <section id="gear" class="gear-reviews">
-        <div class="container">
-            <div class="section-header">
-                <h2>Gear Reviews</h2>
-                <p>The gear I would never leave behind again. My top recommendations.</p>
-            </div>
-            <div class="gear-categories">
-                <button class="category-btn active" data-category="all">All Gear</button>
-                <button class="category-btn" data-category="backpacks">Backpacks</button>
-                <button class="category-btn" data-category="shelters">Shelters</button>
-                <button class="category-btn" data-category="hunting">Hunting Gear</button>
-                <button class="category-btn" data-category="clothing">Clothing</button>
-            </div>
-            <div class="gear-grid">
-                <article class="gear-card" data-category="backpacks">
-                    <div class="gear-image">
-                        <img src="./assets/pack.jpg" alt="Ultralight backpack review" loading="lazy">
-                        <div class="rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="score">5/5</span>
-                        </div>
-                    </div>
-                    <div class="gear-content">
-                        <h3>Kuiu PRO 3600 Pack</h3>
-                        <p>This pack is the perfect size for a quick weekend hunt. The compartments are handy, and the overall design is sleek and functional. Not to mention the weight it can carry!</p>
-                        <div class="gear-meta">
-                            <span class="price">$642</span>
-                            <div class="gear-links">
-                                <a href="./reviews/kuiu-pro-3600-review.html" class="review-link">Full Review</a>
-                                <a href="#" class="affiliate-link">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="gear-card" data-category="shelters">
-                    <div class="gear-image">
-                        <img src="./assets/tipi.jpg" alt="Ultralight tent review" loading="lazy">
-                        <div class="rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="score">5/5</span>
-                        </div>
-                    </div>
-                    <div class="gear-content">
-                        <h3>PEAX Dyneema Solitude 4 Tipi</h3>
-                        <p>Lightweight shelter that withstood extreme weather during my alpine adventures. I'd trust this sturdy structure anywhere!</p>
-                        <div class="gear-meta">
-                            <span class="price">$1325</span>
-                            <div class="gear-links">
-                                <a href="./reviews/peax-dyneema-solitude-review.html" class="review-link">Full Review</a>
-                                <a href="#" class="affiliate-link">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="gear-card" data-category="hunting">
-                    <div class="gear-image">
-                        <img src="./assets/stove.jpg" alt="Wood burning stove review" loading="lazy">
-                        <div class="rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="score">5/5</span>
-                        </div>
-                    </div>
-                    <div class="gear-content">
-                        <h3>Winnerwell Fastfold Titanium Stove</h3>
-                        <p>Having a stove to supply you with unlimited heat is the ultimate luxury in the backcountry. If you've thought about going home early because of the cold, this stove will change your mind.</p>
-                        <div class="gear-meta">
-                            <span class="price">$499</span>
-                            <div class="gear-links">
-                                <a href="./reviews/winnerwell-stove-review.html" class="review-link">Full Review</a>
-                                <a href="#" class="affiliate-link">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sponsorship CTA -->
-    <section class="sponsorship-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Partner With Me</h2>
-                <p>Looking to showcase your gear to serious outdoor enthusiasts? Let's collaborate on authentic, field-tested reviews that drive results.</p>
-                <a href="#contact" class="btn btn-primary">Sponsorship Opportunities</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="blog">
-        <div class="container">
-            <div class="section-header">
-                <h2>Latest Posts</h2>
-                <p>Tips, tricks, and insights from the field</p>
-            </div>
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="./assets/1.jpg" alt="Essential backcountry shelter system" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="date">Oct 25, 2025</span>
-                            <span class="category">Gear Systems</span>
-                        </div>
-                        <h3>The 3-Piece System That Saved My Life at 11,500 Feet</h3>
-                        <p>When your shelter fails in 60+ mph winds, you learn why premium gear isn't luxury - it's survival insurance. Here's the complete system that's never let me down.</p>
-                        <a href="adventures/why-gear-matters.html" class="read-more">Read Full Story</a>
-                    </div>
-                </article>
-
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="./assets/2.jpg" alt="Cold weather hunting success" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="date">Oct 20, 2025</span>
-                            <span class="category">Hunting</span>
-                        </div>
-                        <h3>How $2,466 in Gear Enabled Success When 90% Quit</h3>
-                        <p>Opening weekend in Colorado hit -18°F with brutal winds. While other hunters packed up and left, we stayed and filled our tags. Here's the gear that made the difference.</p>
-                        <a href="adventures/opening-day-rifle.html" class="read-more">Read Hunt Story</a>
-                    </div>
-                </article>
-
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="./assets/3.jpg" alt="Archery hunting success story" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="date">Oct 15, 2025</span>
-                            <span class="category">Success Stories</span>
-                        </div>
-                        <h3>First Light Success: The Complete Gear System That Delivered</h3>
-                        <p>From base camp setup to the final shot at 287 yards - discover the three essential pieces that enabled this perfect archery hunt and how they work together.</p>
-                        <a href="adventures/archery-2025.html" class="read-more">See the Hunt</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get In Touch</h2>
-                <p>Ready to collaborate or have questions about my adventures?</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>adventures@spikedadrenaline.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-handshake"></i>
-                        <div>
-                            <h4>Sponsorships</h4>
-                            <p>Looking for authentic gear testing and reviews</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-camera"></i>
-                        <div>
-                            <h4>Content Creation</h4>
-                            <p>Professional photography and videography available</p>
-                        </div>
-                    </div>
+            <!-- Launch timeline -->
+            <div class="timeline">
+                <h3>What's Coming</h3>
+                <div class="timeline-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Adventure story collection complete</span>
                 </div>
-                <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                    <!-- Web3Forms Access Key - Replace with your actual key -->
+                <div class="timeline-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Gear review system built</span>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Final testing and optimization</span>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-rocket"></i>
+                    <span>Official launch - November 2025</span>
+                </div>
+            </div>
+
+            <!-- Newsletter signup -->
+            <div class="newsletter">
+                <h3>Be the First to Know</h3>
+                <p>Get notified when we launch plus exclusive early access to gear reviews and adventure content.</p>
+                <form class="newsletter-form" action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="e79534b4-1ab2-4688-b630-6ef3aa6960cd">
-                    
-                    <!-- Redirect to thank you page -->
-                    <input type="hidden" name="redirect" value="https://spikedadrenaline.com/thank-you.html">
-                    
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <select id="subject" name="subject" required>
-                            <option value="">Select Subject</option>
-                            <option value="sponsorship">Sponsorship Opportunity</option>
-                            <option value="collaboration">Collaboration</option>
-                            <option value="gear-question">Gear Question</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    
-                    <!-- Spam Protection -->
+                    <input type="hidden" name="subject" value="Early Access - Spiked Adrenaline Launch">
+                    <input type="hidden" name="from_name" value="Early Access Subscriber">
                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                    
-                    <button type="submit" class="btn btn-primary" id="submit-btn">
-                        <span class="btn-text">Send Message</span>
-                        <i class="fas fa-spinner fa-spin" id="loading-spinner" style="display: none;"></i>
-                    </button>
-                    <div id="form-status" style="margin-top: 1rem; text-align: center; display: none;"></div>
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <button type="submit">Notify Me</button>
                 </form>
             </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Spiked Adrenaline</h4>
-                    <p>Pushing limits in the backcountry since day one.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#adventures">Adventures</a></li>
-                        <li><a href="#gear">Gear Reviews</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Get notified about new adventures and gear reviews.</p>
-                    <form class="newsletter-form" action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="e79534b4-1ab2-4688-b630-6ef3aa6960cd">
-                        <input type="hidden" name="subject" value="Newsletter Subscription - Spiked Adrenaline">
-                        <input type="hidden" name="from_name" value="Newsletter Subscriber">
-                        <input type="email" name="email" placeholder="Your email" required>
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Spiked Adrenaline. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Affiliate Disclosure</a>
+            <!-- Social media -->
+            <div class="social">
+                <h4>Follow the Journey</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
-    <!-- Scripts -->
-    <script src="./js/main.js"></script>
+    <script>
+        // Newsletter form submission
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            
+            // Show loading state
+            submitBtn.textContent = 'Subscribing...';
+            submitBtn.disabled = true;
+            
+            // Create FormData object
+            const formData = new FormData(this);
+            
+            // Send newsletter subscription
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    submitBtn.textContent = '✓ Subscribed!';
+                    submitBtn.style.background = '#45a049';
+                    this.querySelector('input[type="email"]').value = '';
+                    
+                    setTimeout(() => {
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                        submitBtn.style.background = '#4CAF50';
+                    }, 3000);
+                } else {
+                    throw new Error('Subscription failed');
+                }
+            })
+            .catch(error => {
+                console.error('Newsletter subscription error:', error);
+                submitBtn.textContent = 'Try Again';
+                submitBtn.style.background = '#f44336';
+                
+                setTimeout(() => {
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                    submitBtn.style.background = '#4CAF50';
+                }, 3000);
+            });
+        });
+
+        // Add some interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate features on scroll (for mobile)
+            const features = document.querySelectorAll('.feature');
+            
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'slideInUp 0.6s ease-out forwards';
+                    }
+                });
+            }, observerOptions);
+
+            features.forEach(feature => {
+                observer.observe(feature);
+            });
+        });
+    </script>
 </body>
 </html>
