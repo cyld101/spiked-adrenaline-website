@@ -133,11 +133,10 @@ contactForm.addEventListener('submit', function(e) {
     });
 });
 
-// Newsletter form submission
+// Newsletter form submission with Web3Forms
 newsletterForm.addEventListener('submit', function(e) {
     e.preventDefault();
     
-    const email = this.querySelector('input[type="email"]').value;
     const submitBtn = this.querySelector('button[type="submit"]');
     const originalText = submitBtn.textContent;
     
@@ -145,17 +144,34 @@ newsletterForm.addEventListener('submit', function(e) {
     submitBtn.textContent = 'Subscribing...';
     submitBtn.disabled = true;
     
-    // Simulate subscription (replace with actual handling)
-    setTimeout(() => {
-        showNotification('Successfully subscribed to the newsletter!', 'success');
-        
-        // Reset form
-        this.reset();
-        
-        // Reset button
+    // Create FormData object
+    const formData = new FormData(this);
+    
+    // Send newsletter subscription using Web3Forms
+    fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            showNotification('Successfully subscribed to the newsletter! You\'ll receive updates on new adventures and gear reviews.', 'success');
+            
+            // Reset form
+            this.reset();
+        } else {
+            throw new Error(data.message || 'Newsletter subscription failed');
+        }
+    })
+    .catch(error => {
+        console.error('Newsletter subscription error:', error);
+        showNotification('Sorry, there was an error subscribing to the newsletter. Please try again.', 'error');
+    })
+    .finally(() => {
+        // Reset button state
         submitBtn.textContent = originalText;
         submitBtn.disabled = false;
-    }, 1500);
+    });
 });
 
 // Notification system

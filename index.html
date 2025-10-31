@@ -423,8 +423,12 @@
                 <div class="footer-section">
                     <h4>Newsletter</h4>
                     <p>Get notified about new adventures and gear reviews.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email" required>
+                    <form class="newsletter-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="e79534b4-1ab2-4688-b630-6ef3aa6960cd">
+                        <input type="hidden" name="subject" value="Newsletter Subscription - Spiked Adrenaline">
+                        <input type="hidden" name="from_name" value="Newsletter Subscriber">
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                         <button type="submit">Subscribe</button>
                     </form>
                 </div>
