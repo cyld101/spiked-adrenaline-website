@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="You're in — Spiked Adrenaline" description="Signup confirmed. Field notes and gear verdicts are on the way.">
+  <section class="wrap">
+    <p class="eyebrow">Confirmed</p>
+    <h1>You're on the list.</h1>
+    <p class="lede">
+      Good call. Field tests, verdicts, and the checklist are headed your way.
+      If nothing shows up in a few minutes, check the spam folder — then drag us out of there.
+    </p>
+    <a href="/reviews/" class="btn">Read the latest reviews</a>
+  </section>
+</Layout>
+
+<style>
+  section { margin-top: 4rem; text-align: center; }
+  h1 { font-size: clamp(2rem, 7vw, 3rem); }
+  .lede { color: var(--muted); max-width: 32rem; margin: 1rem auto 2rem; }
+</style>

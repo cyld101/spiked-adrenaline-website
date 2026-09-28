@@ -1,0 +1,27 @@
+---
+interface Props {
+  product: string;
+  href?: string;
+  note?: string;
+  buttonText?: string;
+}
+const {
+  product,
+  href = '#todo-affiliate-link',
+  note = 'Buying through our link supports more field testing — at no extra cost to you.',
+  buttonText = 'Check current price',
+} = Astro.props;
+// TODO: replace placeholder hrefs with real affiliate links once programs are approved.
+---
+<div class="affiliate-cta panel">
+  <p class="eyebrow">Field-tested pick</p>
+  <p class="product">{product}</p>
+  <a class="btn" href={href} rel="sponsored nofollow noopener" target="_blank">{buttonText} &rarr;</a>
+  <p class="muted small">{note}</p>
+</div>
+
+<style>
+  .affiliate-cta { margin: 2rem 0; text-align: center; }
+  .product { font-weight: 800; font-size: 1.15rem; margin: 0.25rem 0 1rem; }
+  .small { font-size: 0.8rem; margin-top: 0.85rem; margin-bottom: 0; }
+</style>

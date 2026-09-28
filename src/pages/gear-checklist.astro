@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="Montana Backcountry Gear Checklist — Spiked Adrenaline"
+  description="The free gear checklist we actually pack for Montana backcountry hunts and backpacking trips. Field-proven, no filler."
+>
+  <section class="wrap">
+    <p class="eyebrow">Free download</p>
+    <h1>The Montana Backcountry Gear Checklist</h1>
+    <p class="lede">
+      The exact checklist we run before every pack-in — shelter, stove, kill kit, layers,
+      and the small stuff that ruins a trip when it's forgotten. Built from real nights out,
+      not a spec sheet.
+    </p>
+    <ul class="bullets">
+      <li>Shelter &amp; hot-tent system checks (tipi, stove, pipe, spark protection)</li>
+      <li>Layering that actually works from 8&deg;F to 70&deg;F swings</li>
+      <li>The five items we've watched people forget — and regret</li>
+      <li>Weight-conscious, but honest about where ounces are worth it</li>
+    </ul>
+    <div class="panel capture">
+      <h2>Get the checklist</h2>
+      <p class="muted">Drop your email and we'll send it over. You'll also get new field tests as they publish. Unsubscribe anytime.</p>
+      <form action="https://api.web3forms.com/submit" method="POST" class="cta-form">
+        <input type="hidden" name="access_key" value="e79534b4-1ab2-4688-b630-6ef3aa6960cd" />
+        <input type="hidden" name="subject" value="New signup — Montana Backcountry Gear Checklist" />
+        <input type="hidden" name="from_name" value="Spiked Adrenaline" />
+        <input type="hidden" name="redirect" value="https://spikedadrenaline.com/thanks/" />
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off" />
+        <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
+        <button type="submit" class="btn">Send me the checklist</button>
+      </form>
+      <!-- TODO: attach/deliver the actual checklist PDF or page once drafted -->
+    </div>
+  </section>
+</Layout>
+
+<style>
+  section { margin-top: 3rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); margin: 0.5rem 0 1rem; }
+  .lede { color: var(--muted); font-size: 1.08rem; }
+  .bullets { padding-left: 1.2rem; }
+  .bullets li { margin-bottom: 0.5rem; }
+  .capture { margin-top: 2rem; }
+  .capture h2 { margin-top: 0; }
+  .cta-form { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem; }
+  @media (min-width: 540px) {
+    .cta-form { flex-direction: row; }
+    .cta-form input[type='email'] { flex: 1; }
+  }
+</style>

@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<Layout
+  title="Gear Reviews — Spiked Adrenaline"
+  description="Backcountry gear reviews from real Montana field testing: hot tents, stoves, boots, packs. Verdict-first, failures included."
+>
+  <section class="wrap">
+    <p class="eyebrow">Field tests</p>
+    <h1>Gear reviews</h1>
+    <p class="muted">Every review here comes from real nights out. Verdict up top, data underneath, failures included.</p>
+    <div class="review-list">
+      {reviews.map((review) => (
+        <a class="review-card panel" href={`/reviews/${review.id}/`}>
+          <h2>{review.data.title}</h2>
+          <p class="muted">{review.data.description}</p>
+          <p><strong>Verdict:</strong> {review.data.verdict}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  section { margin-top: 3rem; }
+  .review-list { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .review-card { display: block; text-decoration: none; color: var(--text); }
+  .review-card:hover { border-color: var(--accent); color: var(--text); }
+  .review-card h2 { margin: 0 0 0.5rem; font-size: 1.3rem; }
+  .review-card p:last-child { margin-bottom: 0; font-size: 0.95rem; }
+</style>

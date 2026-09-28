@@ -1,0 +1,101 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  ogType?: string;
+}
+const { title, description, ogType = 'website' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Spiked Adrenaline" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a href="/" class="logo">SPIKED<span>ADRENALINE</span></a>
+        <nav>
+          <a href="/reviews/">Reviews</a>
+          <a href="/gear-checklist/">Checklist</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="logo-footer">SPIKED ADRENALINE</p>
+        <p class="muted">Real miles. Real verdicts. Gear tested in the Montana backcountry.</p>
+        <p class="muted small">
+          Some links on this site are affiliate links. If you buy through them, we may earn a
+          commission at no extra cost to you. We only link gear we've actually packed in and tested.
+        </p>
+        <p class="muted small">&copy; {new Date().getFullYear()} Spiked Adrenaline</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    background: var(--bg-alt);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+  }
+  .logo {
+    font-weight: 900;
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .logo span { color: var(--accent); }
+  nav { display: flex; gap: 1.1rem; }
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  nav a:hover { color: var(--text); }
+  .site-footer {
+    border-top: 1px solid var(--border);
+    background: var(--bg-alt);
+    margin-top: 4rem;
+    padding: 2.5rem 0;
+  }
+  .logo-footer { font-weight: 900; letter-spacing: 0.06em; margin: 0 0 0.25rem; }
+  .small { font-size: 0.8rem; }
+</style>

@@ -1,0 +1,67 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EmailCTA from '../components/EmailCTA.astro';
+import { getCollection } from 'astro:content';
+
+const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+<Layout
+  title="Spiked Adrenaline — Real miles. Real verdicts."
+  description="Backcountry gear tested on real hunts and real backpacking miles in the Montana backcountry. Honest reviews, failures included."
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Montana backcountry gear testing</p>
+      <h1>Real miles.<br />Real verdicts.</h1>
+      <p class="lede">
+        We test gear on real hunts and real backpacking miles — not on a porch.
+        Nights out, failures included, and a straight answer on whether it's worth your money.
+      </p>
+      <div class="hero-actions">
+        <a href="/reviews/" class="btn">Read the reviews</a>
+        <a href="/gear-checklist/" class="ghost">Free gear checklist &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2>Latest reviews</h2>
+    {reviews.length === 0 && <p class="muted">First field reports are being written up now. Join the list below and we'll send them when they drop.</p>}
+    <div class="review-list">
+      {reviews.map((review) => (
+        <a class="review-card panel" href={`/reviews/${review.id}/`}>
+          <p class="eyebrow">Field test</p>
+          <h3>{review.data.title}</h3>
+          <p class="muted">{review.data.description}</p>
+          <p class="verdict"><strong>Verdict:</strong> {review.data.verdict}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap">
+    <EmailCTA />
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 4rem 0 3.5rem;
+    text-align: left;
+  }
+  .hero h1 { font-size: clamp(2.4rem, 8vw, 3.6rem); margin: 0.5rem 0 1rem; font-weight: 900; }
+  .lede { font-size: 1.1rem; color: var(--muted); max-width: 34rem; }
+  .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-top: 1.75rem; }
+  .ghost { color: var(--text); font-weight: 700; text-decoration: none; }
+  .ghost:hover { color: var(--accent); }
+  section.wrap { margin-top: 3rem; }
+  .review-list { display: grid; gap: 1rem; }
+  .review-card { display: block; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
+  .review-card:hover { border-color: var(--accent); color: var(--text); }
+  .review-card h3 { margin: 0.25rem 0 0.5rem; }
+  .verdict { margin-bottom: 0; font-size: 0.95rem; }
+</style>

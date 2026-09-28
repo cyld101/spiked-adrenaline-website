@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EmailCTA from '../components/EmailCTA.astro';
+---
+<Layout
+  title="About — Spiked Adrenaline"
+  description="Spiked Adrenaline is a Montana-based backcountry field-testing outfit. Gear tested on real hunts and real miles — anonymous by design."
+>
+  <section class="wrap">
+    <p class="eyebrow">Who we are</p>
+    <h1>The site is the tester.</h1>
+    <p>
+      Spiked Adrenaline is a Montana-based backcountry field-testing outfit. Gear gets tested
+      on real hunts and real backpacking miles — not on a porch, and not from a press release.
+    </p>
+    <p>
+      We're anonymous by design. In hunting culture, protecting spots — and identities — is
+      respected, not suspicious. You won't find names, faces, or trailheads here. You'll find
+      nights out, load weights, temperature swings, and honest calls on what held up and what failed.
+    </p>
+    <h2>How we test</h2>
+    <ul>
+      <li><strong>Real miles.</strong> Every review states nights out, conditions, and load.</li>
+      <li><strong>Failures included.</strong> What broke and what annoyed us goes in the review. That's the trust engine.</li>
+      <li><strong>Who it's for — and who it's not for.</strong> Every verdict says both, explicitly.</li>
+      <li><strong>Willing to say "skip it."</strong> No hype words unless the data earns them.</li>
+    </ul>
+    <h2>How this site makes money</h2>
+    <p>
+      Some links are affiliate links: buy through them and we may earn a commission at no extra
+      cost to you. That funds more gear and more nights out. It never changes a verdict — a review
+      that can't say "skip it" isn't worth reading.
+    </p>
+    <EmailCTA />
+  </section>
+</Layout>
+
+<style>
+  section { margin-top: 3rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); margin: 0.5rem 0 1rem; }
+  ul li { margin-bottom: 0.6rem; }
+</style>

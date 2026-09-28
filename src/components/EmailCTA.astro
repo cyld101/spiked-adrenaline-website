@@ -1,0 +1,38 @@
+---
+interface Props {
+  heading?: string;
+  blurb?: string;
+  buttonText?: string;
+  formName?: string;
+}
+const {
+  heading = 'Get the field notes',
+  blurb = 'New reviews and gear verdicts from the Montana backcountry, straight to your inbox. No spam, no spec-sheet filler.',
+  buttonText = 'Send me the verdicts',
+  formName = 'Spiked Adrenaline Newsletter',
+} = Astro.props;
+---
+<div class="email-cta panel">
+  <p class="eyebrow">Newsletter</p>
+  <h2>{heading}</h2>
+  <p class="muted">{blurb}</p>
+  <form action="https://api.web3forms.com/submit" method="POST" class="cta-form">
+    <input type="hidden" name="access_key" value="e79534b4-1ab2-4688-b630-6ef3aa6960cd" />
+    <input type="hidden" name="subject" value={`New signup — ${formName}`} />
+    <input type="hidden" name="from_name" value="Spiked Adrenaline" />
+    <input type="hidden" name="redirect" value="https://spikedadrenaline.com/thanks/" />
+    <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off" />
+    <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
+    <button type="submit" class="btn">{buttonText}</button>
+  </form>
+</div>
+
+<style>
+  .email-cta { margin: 2rem 0; }
+  .email-cta h2 { margin: 0.25rem 0 0.5rem; }
+  .cta-form { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem; }
+  @media (min-width: 540px) {
+    .cta-form { flex-direction: row; }
+    .cta-form input[type='email'] { flex: 1; }
+  }
+</style>
