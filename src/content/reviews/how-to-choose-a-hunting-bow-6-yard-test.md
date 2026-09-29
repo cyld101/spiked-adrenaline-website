@@ -20,8 +20,7 @@ And while you're putting in those reps, learn from the best free coaching there 
 
 Buy your bow eleven months before you need it, not eleven days.
 
-![Hoyt hunting bow, fully rigged — stabilizer, quiver, and arrows ready](/images/reviews/hoyt-hunting-bow-setup.jpg)
-*The one that shows up every day: our Hoyt, rigged and dialed. Set up by a real shop tech — more on that below.*
+<!-- TODO PHOTO: Kane's Hoyt — full setup beauty shot. -->
 
 ## The 6-Yard Test
 
