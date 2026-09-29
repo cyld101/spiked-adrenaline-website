@@ -20,6 +20,9 @@ Two years ago I bought a PEAX Dyneema tipi and a Winnerwell titanium stove. It's
 
 One favor before we start: read this one all the way to the end. The cozy stories are up front, but the back half is where I hand you two years of lessons — and one habit back there could genuinely save your life. This is the best gear I can find, and the best gear deserves a fully briefed owner. Deal? Let's go.
 
+![The PEAX Solitude 4 Dyneema tipi pitched in an alpine basin in the Montana backcountry](/images/reviews/peax-tipi-alpine-basin.jpg)
+*Home for the night: the Solitude 4 pitched in an alpine basin. Montana backcountry, two years of trips like this one.*
+
 ## What I run (and what it actually weighs)
 
 - **Shelter:** PEAX Solitude 4 Tipi in Dyneema. Shelter body alone is right around 2 lbs (PEAX lists it at 1 lb 14.2 oz; packed weight with the carbon center pole, 12 stakes, cording, and bags is 3 lb 5.9 oz). Current price: $1,325. I ordered mine with no bug net and no floor — more on why below. It pitches off a center pole, and you can rig trekking-pole support instead.
@@ -28,6 +31,9 @@ One favor before we start: read this one all the way to the end. The cozy storie
 - **Whole system, real-world:** about 6–7 lbs on my scale, everything included. Read that again. A heated, standing-height, four-person shelter for the weight of some solo tent-and-pad setups.
 
 The tipi sleeps four with no gear, but realistically it's two people plus gear plus the stove, and that's how I run it.
+
+![PEAX tipi at camp with the Winnerwell stove running and the 9-foot pipe through the stove jack](/images/reviews/peax-tipi-stove-pipe-camp.jpg)
+*The system at work: stove burning, 9-foot pipe putting the exit well above the Dyneema.*
 
 <!-- TODO PHOTO: full system laid out on a scale — tipi, pole, stakes, stove, pipe. Caption with actual weigh-in numbers. -->
 

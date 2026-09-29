@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -380 1064 470" role="img" aria-label="Spiked Adrenaline mark">
+<defs><radialGradient id="glow"><stop offset="0" stop-color="#c2571b" stop-opacity="0.5"/><stop offset="0.45" stop-color="#c2571b" stop-opacity="0.16"/><stop offset="1" stop-color="#c2571b" stop-opacity="0"/></radialGradient></defs>
+<path d="M 500 0 L 569 -252 L 596 0 Z" fill="#c2571b"/><path d="M 569 -252 L 658 0 L 596 0 Z" fill="#c2571b" opacity="0.85"/>
+<path d="M 40 0 L 162 0 Q 180 0 188.53 -15.85 L 203.26 -43.2 Q 208 -52 212.74 -43.2 L 227.47 -15.85 Q 236 0 254 0 L 298 0 Q 316 0 322.41 -16.82 L 344.44 -74.66 Q 348 -84 351.56 -74.66 L 373.59 -16.82 Q 380 0 398 0 L 434 0 Q 452 0 462.64 14.52 L 465.72 18.71 Q 474 30 477.25 16.38 L 566 -356 L 689.73 30.67 Q 694 44 701.52 32.19 L 712.34 15.19 Q 722 0 740 0 L 876 0" fill="none" stroke="#e8e4da" stroke-width="38" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M 40 -19 Q 20 -15.2 11 -7.22 A 7.98 7.98 0 0 0 11 7.22 Q 20 15.2 40 19 Z M 876 -19 Q 896 -15.2 905 -7.22 A 7.98 7.98 0 0 1 905 7.22 Q 896 15.2 876 19 Z" fill="#e8e4da"/>
+<circle cx="988" cy="0" r="64" fill="url(#glow)"/>
+<circle cx="988" cy="0" r="25" fill="#c2571b"/>
+</svg>

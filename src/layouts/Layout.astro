@@ -30,7 +30,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <body>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a href="/" class="logo">SPIKED<span>ADRENALINE</span></a>
+        <a href="/" class="logo"><img src="/logo-mark.svg" alt="" class="logo-mark" width="59" height="26" />SPIKED<span>ADRENALINE</span></a>
         <nav>
           <a href="/reviews/">Reviews</a>
           <a href="/gear-checklist/">Checklist</a>
@@ -78,8 +78,12 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     letter-spacing: 0.04em;
     color: var(--text);
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
   }
   .logo span { color: var(--accent); }
+  .logo-mark { height: 26px; width: auto; display: block; }
   nav { display: flex; gap: 1.1rem; }
   nav a {
     color: var(--muted);
