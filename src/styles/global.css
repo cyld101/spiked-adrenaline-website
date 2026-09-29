@@ -76,12 +76,14 @@ img { max-width: 100%; height: auto; }
 .eyebrow::before {
   content: '';
   display: inline-block;
-  width: 1.4rem;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent), transparent);
-  vertical-align: middle;
-  margin-right: 0.5rem;
-  border-radius: 1px;
+  width: 2.1rem;
+  height: 0.66rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 44'%3E%3Cpath d='M0 32 H34 L44 32 L58 6 L70 40 L78 32 H108' fill='none' stroke='%23e0562b' stroke-width='7' stroke-linejoin='round' stroke-linecap='round'/%3E%3Ccircle cx='126' cy='32' r='9' fill='%23e0562b'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: -6%;
+  margin-right: 0.45rem;
 }
 
 input[type='email'] {
@@ -121,11 +123,14 @@ input[type='email']:focus {
 .content :global(h2)::after {
   content: '';
   display: block;
-  width: 3.5rem;
-  height: 2px;
-  margin-top: 0.5rem;
-  background: linear-gradient(90deg, var(--accent), transparent);
-  border-radius: 1px;
+  width: 4.2rem;
+  height: 1.35rem;
+  margin-top: 0.4rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 44'%3E%3Cpath d='M0 32 H34 L44 32 L58 6 L70 40 L78 32 H108' fill='none' stroke='%23e0562b' stroke-width='7' stroke-linejoin='round' stroke-linecap='round'/%3E%3Ccircle cx='126' cy='32' r='9' fill='%23e0562b'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  opacity: 0.9;
 }
 
 hr {
