@@ -16,6 +16,8 @@ That's now. Archery season just wrapped, and two things are about to happen at o
 
 Here's the part nobody tells beginners: it takes most people about a year to get a bow truly dialed. Not the bow's fault — yours. You'll shoot great for a week, then wake up one day with a slightly different grip and start pushing arrows left. So you re-sight. Next week you're drifting right. Re-sight again. You're not chasing a bow problem, you're chasing a *you* problem, and the only fix is reps. Buy in the fall, join a winter league, and put a cold season of arrows through it — and by next September the bow feels like part of your arm instead of a science experiment.
 
+And while you're putting in those reps, learn from the best free coaching there is: **George Ryals (GRIV) on YouTube**. Hands down the best place to start — form, grip, aiming, the mental game, all of it, taught by one of the most respected coaches in archery. A winter of leagues plus George's videos will put you years ahead of the guy who just bought a nicer bow.
+
 Buy your bow eleven months before you need it, not eleven days.
 
 <!-- TODO PHOTO: Kane's Hoyt — full setup beauty shot. -->
@@ -77,7 +79,7 @@ If your bow can't take a hit, effectively yes — a backup becomes part of the k
 Speed sells, and some fast bows are genuinely great. But arrow speed never killed an elk that a broken cam sent home. Rugged and consistent beats fast and fragile every time it matters.
 
 **I'm brand new — first three moves?**
-One: buy now, used or last-year's sale, from a real shop with a real tech. Two: join a winter league — reps with people who can see your form. Three: leave the speed-and-gadget rabbit hole alone for one full year. The bow isn't your problem yet. You are.
+One: buy now, used or last-year's sale, from a real shop with a real tech. Two: join a winter league and start working through George Ryals' YouTube coaching — reps plus real instruction. Three: leave the speed-and-gadget rabbit hole alone for one full year. The bow isn't your problem yet. You are.
 
 ---
 
