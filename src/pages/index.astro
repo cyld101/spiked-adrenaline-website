@@ -27,7 +27,7 @@ const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
   </section>
 
   <section class="wrap">
-    <h2 class="pulse-underline">Latest reviews</h2>
+    <h2>Latest reviews</h2>
     {reviews.length === 0 && <p class="muted">First field reports are being written up now. Join the list below and we'll send them when they drop.</p>}
     <div class="review-list">
       {reviews.map((review) => (
