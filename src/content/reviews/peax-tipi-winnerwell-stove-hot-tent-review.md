@@ -113,7 +113,9 @@ That's the doctrine I want you to take from this review: **most negative reviews
 
 ## Gear I'm still hunting for
 
-The missing piece of this system is a true backpacking pickaxe for digging flat beds and fire pits — KUIU discontinued theirs and nothing has filled the hole. At the PEAX grand opening I got a look in the test room at a pickaxe/walking-stick combo they're prototyping. If that ships, it completes the kit. Watching that one closely.
+The missing piece of this system is a true backpacking pickaxe for digging flat beds and fire pits — KUIU discontinued theirs and nothing has filled the hole. At the PEAX grand opening I got a look at a prototype on the bench in the test room: a pick on one side, a knife/saw on the other, built into a walking stick. Promising start.
+
+Here's the tool I actually want somebody to engineer — one head that does it all: **pickaxe, walking stick, bino support, and shooting sticks.** Dig your bed, hike in on it, glass off it, shoot off it. I'd honestly rather carry one solid cane-style walking stick than two trekking poles, and a multi-purpose head like that would end the debate for me. If that ships, it completes the kit. Watching this space closely — and if you know somebody building it, email us.
 
 ## Who should NOT buy this
 
@@ -153,4 +155,4 @@ Yes. Tipi packed with pole and stakes is about 3.5 lbs, stove and pipe about 4 l
 
 ---
 
-Got a question I didn't cover? Email **questions@spikedadrenaline.com** — I answer everything myself. Not a support team, not a bot. Me. That's the whole point of this site.
+Got a question we didn't cover? Email **questions@spikedadrenaline.com** — we answer every one ourselves. Not an outsourced help desk, not a bot. The same people who packed this gear into the backcountry. That's the whole point of this site.
