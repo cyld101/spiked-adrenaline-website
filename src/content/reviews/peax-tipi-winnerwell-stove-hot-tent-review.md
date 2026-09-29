@@ -39,6 +39,9 @@ The tipi sleeps four with no gear, but realistically it's two people plus gear p
 
 ## Why Dyneema, or: the time I melted a KUIU tent
 
+![The KUIU tent glowing from inside at night — the tent from the story](/images/reviews/kuiu-tent-night.jpg)
+*Exhibit A: the KUIU tent, back when it was still whole. Great tent. Wrong tool for a wood stove.*
+
 I didn't start here. I started by running a wood stove in a KUIU tent, and I melted it. That's the whole story — hot stove, wrong shelter, melted tent. That mistake is why I went to a purpose-built Dyneema tipi with a real stove jack, and it's why I ordered mine with no netting and no floor: less material near the fire, less to melt, less to go wrong.
 
 Two years and every single trip later: nothing better. No comparison. The other tipis that can match this durability are ten times the weight. Dyneema doesn't stretch, doesn't sag when it's wet, and shrugs off wind that would have flattened my old setups.
@@ -100,6 +103,9 @@ Last summer I took my girlfriend out and camped in a wide-open spot on purpose �
 The tipi itself? Took the same wind and survived. The next night I moved us into a protected little cove, staked everything properly, and it was beautiful — the tent didn't shake all night. Same tent, same wind country, different operator decisions.
 
 That's the doctrine I want you to take from this review: **most negative reviews of this tent are user error.** Mine included. The gear did its job; I didn't do mine. Here's what doing your job looks like:
+
+![PEAX tipi pitched in a protected alpine meadow with an established fire ring](/images/reviews/peax-tipi-alpine-meadow.jpg)
+*What doing your job looks like: flat bench, wind protection, established fire ring. The site is half the system.*
 
 - **E-scout your site.** Find a flat bench out of the wind before you ever leave the truck. Terrain is your first guy line.
 - **Stake it tight to the ground.** No draft gap around the bottom edge. A loose pitch flaps, chills you, and feeds sparks oxygen. Dig or scrape a flat bed if you have to.
