@@ -11,7 +11,7 @@ const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
 >
   <section class="wrap">
     <p class="eyebrow">Field tests</p>
-    <h1 class="pulse-underline">Gear reviews</h1>
+    <h1>Gear reviews</h1>
     <p class="muted">Every review here comes from real nights out. Verdict up top, data underneath, failures included.</p>
     <div class="review-list">
       {reviews.map((review) => (
