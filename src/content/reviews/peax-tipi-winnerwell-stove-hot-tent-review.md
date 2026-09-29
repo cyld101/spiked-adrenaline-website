@@ -18,10 +18,12 @@ Now? I've got a pot going all night. Coffee, then decaf teas, pot after pot, as 
 
 Two years ago I bought a PEAX Dyneema tipi and a Winnerwell titanium stove. It's been on every trip since, and I'm going to tell you everything — including the time I folded the stove pipe in half, the daily maintenance that will literally keep you alive, and who absolutely should not buy this system.
 
+One favor before we start: read this one all the way to the end. The cozy stories are up front, but the back half is where I hand you two years of lessons — and one habit back there could genuinely save your life. This is the best gear I can find, and the best gear deserves a fully briefed owner. Deal? Let's go.
+
 ## What I run (and what it actually weighs)
 
 - **Shelter:** PEAX Solitude 4 Tipi in Dyneema. Shelter body alone is right around 2 lbs (PEAX lists it at 1 lb 14.2 oz; packed weight with the carbon center pole, 12 stakes, cording, and bags is 3 lb 5.9 oz). Current price: $1,325. I ordered mine with no bug net and no floor — more on why below. It pitches off a center pole, and you can rig trekking-pole support instead.
-- **Stove:** Winnerwell 13-inch titanium box stove *(exact model TBC — Winnerwell's current Fastfold Titanium runs $599 at 4 lbs for stove + chimney, with a 3-inch-diameter, 108-inch rolled pipe; I'll confirm which box size mine matches)*. I deliberately went with the bigger firebox: a longer box takes longer sticks, and longer sticks mean longer burns.
+- **Stove:** Winnerwell Fastfold Titanium 15-inch box stove — 4 lbs for stove + chimney, $599, with a 3-inch-diameter, 108-inch rolled pipe. I deliberately went with the bigger firebox: a longer box takes longer sticks, and longer sticks mean longer burns. One honest gripe: it burns great and it's easy to run, but it doesn't pack down as neatly as you'd hope — a little awkward in the pack. Still worth it, every trip.
 - **Pipe:** the 9-foot chimney. That's not overkill — a tall pipe puts the exit well above the tipi so hot ash isn't raining down on your Dyneema.
 - **Whole system, real-world:** about 6–7 lbs on my scale, everything included. Read that again. A heated, standing-height, four-person shelter for the weight of some solo tent-and-pad setups.
 
@@ -45,9 +47,9 @@ Better story: my girlfriend's dad was basically done with camping. Age, cold, mi
 
 ### The stove is also your bug control
 
-This one surprised me. Mosquitoes and flies get in the tipi, sure — mine has no net. Then they fly a little too close to the sun. They land on that hot stove pipe and just disintegrate. Come back to camp, tent's full of flies? Boil water for a sec. Bugs gone. It's the most satisfying pest control system I've ever used.
+This one surprised me. Mosquitoes and flies get in the tipi, sure — mine has no net. But a stove-warmed tipi is a far less buggy tipi than you'd expect: get the fire going and the problem largely takes care of itself. Come back to camp and the tent's full of flies? Boil water for a few minutes. Bugs handled.
 
-That said, I do want to try the PEAX Half Nest with this setup — it's a half-footprint bug nest insert (22 oz, silnylon tub with no-see-um mesh; *price TBC*) that covers the sleeping side and leaves the stove side open. PEAX says it works with a stove; my only hesitation is mesh anywhere near that pipe, because I've already melted one tent in my life and I'm not looking for a rematch. I'll report back.
+That said, I do want to try the PEAX Half Nest with this setup — it's a half-footprint bug nest insert (22 oz, $260, silnylon tub with no-see-um mesh) that covers the sleeping side and leaves the stove side open. PEAX says it works with a stove; my only hesitation is mesh anywhere near that pipe, because I've already melted one tent in my life and I'm not looking for a rematch. My untested working theory: with the nest installed, I'd run the stove cooler — keep it well under max temp so there's more margin for error. That's the whole philosophy of this system anyway: think about how you're using it. I'll report back.
 
 ### Water on demand
 
@@ -59,19 +61,25 @@ Here's where I lose the people who wanted a five-star fluff review. This system 
 
 ### Clean the spark arrestor EVERY day
 
-Non-negotiable. The spark arrestor on top of the pipe clogs with creosote and ash. If it clogs, your draft dies, and a stove with no draft backdrafts — it pushes smoke backwards into the tipi. While you're asleep. That's not a "ruined trip" problem, that's a *you don't wake up* problem. Clean it every single day. No exceptions, no "it looks fine."
+Non-negotiable. The spark arrestor on top of the pipe clogs with creosote and ash. If it clogs, your draft dies — and a stove with no draft backdrafts, pushing smoke and carbon monoxide back down into the tipi instead of up the pipe. Carbon monoxide is the quiet one: no smell, no taste, no warning, and if it builds while you're asleep, you may simply not wake up. That's the honest worst case, and it's why this section exists.
+
+Now the part that should reassure you: this risk is entirely in your control. A clean arrestor drafts; a drafting stove sends everything up and out. One minute of maintenance a day removes the failure mode completely. People run hot tents safely all winter, every winter — it's absolutely doable. It just isn't optional. Clean it every single day. No exceptions, no "it looks fine."
 
 I grew up running a wood stove at home, so I understand backdraft in my bones. If you've never operated a wood stove, respect that gap and close it before you sleep next to one.
 
 ### My insurance policy: sleep low, face out
 
-Even with a clean arrestor, I stack the odds. I sleep at the edge of the tipi with my face toward the door gap. A floorless tipi doesn't seal to the ground — the edge gap means fresh, cold, clean air is always available low, right where my head is. Smoke rises; I sleep where the good air is. Free habit, might save your life.
+Even with a clean arrestor, I stack the odds. A floorless tipi doesn't seal to the ground — there's a gap all the way around the bottom edge, and the stove is constantly pulling fresh outside air in through it to feed the fire. So I sleep right up against the tipi wall with my face turned toward that floor gap, breathing the clean, cold air sliding in from outside. The wall position does double duty: fresh air at my face, and maximum distance between my sleeping bag and a hot titanium stove — that's a touch-test I never want to run. Smoke rises; I sleep where the good air is. Free habit, might save your life.
+
+One more floorless detail: read the ground before you bed down. No floor means no bathtub — if you're lying in a dip when the rain comes, the water pools up inside the tent with you. Pick or scrape a spot with a touch of high ground.
 
 ### Burn-time truth
 
 Anyone telling you their backpacking stove burns all night untouched is selling something. Real numbers from two years: **2 hours of solid coals is dependable. 3 hours is iffy.** Anything past 2 hours takes dialed airflow and the right wood. You will wake up cold at 3 a.m. sometimes and either feed it or ride it out.
 
 My dream project — future article, I promise — is an engineered 8-hour log: one log split in four, kindling core, fire starter set at the front, bundled so it burns back slowly all night. Plus a fast-heat morning log for the get-out-of-the-bag moment. I'm going to build and test these.
+
+Want to see that test — or have something else you want field-tested first? Email **questions@spikedadrenaline.com** and tell me. This site is owner-operated: the emails come from us and get answered by us. Not spam. The rare kind of email you'll actually want to open.
 
 ### Fire discipline
 
@@ -89,7 +97,7 @@ That's the doctrine I want you to take from this review: **most negative reviews
 
 - **E-scout your site.** Find a flat bench out of the wind before you ever leave the truck. Terrain is your first guy line.
 - **Stake it tight to the ground.** No draft gap around the bottom edge. A loose pitch flaps, chills you, and feeds sparks oxygen. Dig or scrape a flat bed if you have to.
-- **Stake out everything, every time** — including the pipe. Use a rock or hammer on the stakes. In snow, bury the edges — the snow-burying trick seals the skirt and locks the pitch down better than stakes.
+- **Stake out everything, every time** — including the pipe. Use a rock or hammer on the stakes. In snow, stake it like always, then bury the edges — packed snow seals the skirt and locks the pitch down better than stakes alone. It's an upgrade on top of staking, not a replacement for it.
 - **Carry patches, always.** My only damage in two years of hard use is one rub hole where a titanium stove corner rested against the Dyneema and sawed at it all night — my fault again. Field-patched it in minutes. Dyneema patches weigh nothing. Never leave without them.
 
 <!-- TODO PHOTO: side-by-side, GOOD stake-out (skirt tight to ground) vs BAD stake-out (draft gap) — Kane shooting these next setup. -->
@@ -107,7 +115,7 @@ I mean this sincerely, not as reverse psychology:
 
 - **If you want pop-and-go**, buy a freestanding tent. This system rewards tinkerers and punishes shortcuts.
 - **If you've never run a wood stove**, don't make a backcountry tipi your first one — or at minimum, burn it in your backyard for several nights first and learn the arrestor, damper, and draft cold.
-- **If you camp mostly in warm bug season and won't carry the stove**, you're paying Dyneema prices for a tarp you'll fill with mosquitoes. Get a netted shelter.
+- **If you camp mostly in warm bug season and won't carry the stove**, you're paying Dyneema prices for a tarp you'll fill with mosquitoes. The fix isn't a different tent — it's mesh: add the Half Nest ($260) or PEAX's full nest to the same tipi and you've got a legitimate bug-season shelter that's still ready for the stove the day you are.
 - **If you won't do daily maintenance**, this stove can genuinely hurt you. That's not marketing drama. Skip it.
 - **If $1,300+ for a shelter breaks the budget**, PEAX makes the same tipi in silnylon for a lot less money and about a half pound more — that's the smarter buy than stretching for Dyneema.
 
@@ -115,7 +123,7 @@ I mean this sincerely, not as reverse psychology:
 
 Two years, every trip, one melted KUIU tent behind me and one folded stove pipe on my own scorecard: the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove is the best shelter system I have ever used, full stop. Roughly 6–7 lbs buys you a heated, standing-height shelter, unlimited hot water, built-in bug incineration, and the kind of comfort that put my girlfriend's dad back on the mountain. Nothing better. No comparison.
 
-But it's a system you operate, not a product you use. Learn the stove, clean the arrestor daily, pick your sites, stake it like you mean it, and carry patches. Do that, and you'll wonder how you ever camped cold.
+But it's a system you operate, not a product you use. That's not a flaw — for me it's half the fun. I don't test cheap gear; I test the best I can find, and dialing it in is the hobby inside the hobby. Learn the stove, clean the arrestor daily, pick your sites, stake it like you mean it, and carry patches. Do that, and you'll wonder how you ever camped cold.
 
 ## FAQ
 
@@ -123,10 +131,10 @@ But it's a system you operate, not a product you use. Learn the stove, clean the
 Two hours of solid coals, reliably. Three hours if the airflow and wood are dialed, and I'd call that iffy. Plan to feed it overnight or accept a cold stretch before dawn. Anyone claiming 8 hours from a 4-lb titanium stove is dreaming — which is exactly why I'm engineering an 8-hour log bundle as a project.
 
 **Is it safe to sleep with the stove burning?**
-It can be, if you treat it like the serious tool it is: spark arrestor cleaned daily, dry seasoned wood, damper set, and — my habit — sleep at the tipi's edge with your face toward the door gap so you've always got fresh air low. If any of that sounds like too much effort, let the fire die before you sleep.
+It can be, if you treat it like the serious tool it is: spark arrestor cleaned daily, dry seasoned wood, damper set, and — my habit — sleep against the tipi wall with your face toward the floor gap, where the stove is pulling fresh outside air in low — right where your head is. Keep your bag well clear of the stove, too. If any of that sounds like too much effort, let the fire die before you sleep.
 
 **Why no floor and no bug net?**
-I melted a KUIU tent running a stove in it. Less flammable material near the fire is the whole design philosophy. Floorless also lets you dig a flat bed and keeps that life-saving fresh-air gap at the skirt. Bugs mostly solve themselves — they fly a little too close to the sun and disintegrate on the hot pipe. I may add the PEAX Half Nest (bug mesh over the sleeping half only) and will report how it lives next to a stove.
+I melted a KUIU tent running a stove in it. Less flammable material near the fire is the whole design philosophy. Floorless also lets you dig a flat bed and keeps that life-saving fresh-air gap at the skirt — just don't bed down in a dip where rainwater can pool. A warm stove keeps bug pressure surprisingly low on its own. I may add the PEAX Half Nest ($260 — bug mesh over the sleeping half only) and will report how it lives next to a stove.
 
 **Dyneema or silnylon?**
 Dyneema if the budget allows: no stretch, no sag when wet, absurdly strong for under 2 lbs. Mine survived a windstorm that folded a titanium stove pipe in half. But it's a big price jump for roughly half a pound, so silnylon is the rational pick for most people. Either way the failures you read about in reviews are mostly user error — bad sites and lazy stake-outs — not fabric.
@@ -135,7 +143,7 @@ Dyneema if the budget allows: no stretch, no sag when wet, absurdly strong for u
 Height. The exit sits well above the tipi, so sparks and hot ash burn out or blow clear instead of landing on your shelter. After the melted-tent incident, I don't compromise here. Just stake the pipe's guy line — ask me how I know.
 
 **Can one person carry the whole system?**
-Yes. Tipi packed with pole and stakes is about 3.5 lbs, stove and pipe about 4 lbs (*my exact stove model/weight TBC*) — my whole real-world system is 6–7 lbs. Split between two hunters it disappears entirely.
+Yes. Tipi packed with pole and stakes is about 3.5 lbs, stove and pipe about 4 lbs — my whole real-world system is 6–7 lbs. Split between two hunters it disappears entirely.
 
 ---
 
