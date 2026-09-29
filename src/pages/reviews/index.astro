@@ -11,12 +11,12 @@ const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
 >
   <section class="wrap">
     <p class="eyebrow">Field tests</p>
-    <h1>Gear reviews</h1>
+    <h1 class="pulse-underline">Gear reviews</h1>
     <p class="muted">Every review here comes from real nights out. Verdict up top, data underneath, failures included.</p>
     <div class="review-list">
       {reviews.map((review) => (
         <a class="review-card panel" href={`/reviews/${review.id}/`}>
-          <h2>{review.data.title}</h2>
+          <h2 class="pulse-underline">{review.data.title}</h2>
           <p class="muted">{review.data.description}</p>
           <p><strong>Verdict:</strong> {review.data.verdict}</p>
         </a>
@@ -31,5 +31,6 @@ const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
   .review-card { display: block; text-decoration: none; color: var(--text); }
   .review-card:hover { border-color: var(--accent); color: var(--text); }
   .review-card h2 { margin: 0 0 0.5rem; font-size: 1.3rem; }
+  .review-card :global(.pulse-underline)::after { width: 3rem; height: 1rem; margin-top: 0.3rem; }
   .review-card p:last-child { margin-bottom: 0; font-size: 0.95rem; }
 </style>
