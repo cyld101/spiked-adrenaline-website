@@ -39,6 +39,9 @@ Spend enough time around serious bowhunters and you start hearing a pattern: guy
 
 That's the whole thesis: **a hunting bow's first job is to show up.** Accurate, consistent, and structurally boring, every single day, no matter what happened to it on the way in. Hoyts are famously overbuilt — these are bows that have survived being run over and gone right back to shooting. Speed-focused bows can post sexier chronograph numbers, but some of them trade away exactly the ruggedness a backcountry hunter can't give up. A fast bow that needs babying is a target bow with camo on it.
 
+![Close-up of the cam system on a Hoyt hunting bow](/images/reviews/hoyt-cam-detail.jpg)
+*The hardware that has to survive the trip: overbuilt cams, no drama.*
+
 ## The podcast tell
 
 Here's a research method anyone can copy: listen to a few hundred hours of hunting podcasts. Not the ad reads — the loose moments, when the best shooters and most-traveled hunters in the world are just talking with their buddies and forget they're being recorded. Watch what they actually choose when nobody's paying them to say it.
@@ -51,13 +54,20 @@ The price gap between an aluminum Hoyt and a comparable aluminum bow from most o
 
 If budget is genuinely the wall, buy last year's model in the sale window we're in right now — that's the move, not stepping down in durability.
 
-<!-- TODO PHOTO: detail shots — riser, cams, string. -->
+![Hoyt riser detail with sight and rest mounted](/images/reviews/hoyt-riser-detail.jpg)
+*Machined like it expects to be dropped — because someday it will be.*
+
+![Hoyt limb detail showing the tuning system](/images/reviews/hoyt-limbs-detail.jpg)
+*Tuning hardware built into the limbs — set it right once, and it stays right.*
 
 ## Skip the affiliate link. Go see Rob.
 
 No affiliate links in this one. Instead, a recommendation that costs you nothing and earns us nothing:
 
 If you're anywhere near Montana and you want to get set up right, go see **Rob Morgan at Superior Archery in Billings**. Tell him Spiked Adrenaline sent you — he'll have no idea what that means, and that's the point. He's not paying us and doesn't know we exist. We just know how our own bow shoots, because he's the one who dialed it: everything perfect, nothing to worry about since.
+
+![String detail with peep sight and hand-tied servings](/images/reviews/hoyt-string-peep-detail.jpg)
+*What a real shop tune looks like up close: clean servings, peep set to your eye, nothing left loose.*
 
 Rob's a Hoyt believer through and through — he still shoots for them — but he's honest first. Walk in wanting a Mathews and he'll set you up with a Mathews and do it right. That combination — real conviction, zero pressure — is exactly what a beginner needs and almost never gets. A good shop and a good tech will save your first year of frustration better than any brand choice will.
 
