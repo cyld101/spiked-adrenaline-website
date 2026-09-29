@@ -5,80 +5,214 @@ import TipJar from '../components/TipJar.astro';
 ---
 <Layout
   title="The Montana Backcountry Day-Pack Checklist — Spiked Adrenaline"
-  description="The exact list we run before every pack-in. Weather, med kit, kill kit, and the pieces that save a trip — or a life. Field-proven, no filler."
+  description="An interactive, field-proven day-pack checklist: weather, med kit, kill kit, and the dual-use gear that saves trips and lives. Open each kit, learn each item, check it off as you pack."
 >
   <section class="wrap">
     <p class="eyebrow">The checklist</p>
-    <h1>The Montana Backcountry Day-Pack Checklist</h1>
+    <h1>The Backcountry Day-Pack</h1>
     <p class="lede">
-      This is the exact list we check before every pack-in. Print it, screenshot it, tape it
-      to the inside of your pack lid. Every item earned its spot on a real trip — usually
-      the hard way. Nothing on here is filler, and nothing is negotiable once you've needed
-      it and not had it.
+      This is the exact kit we check before every pack-in. Open each pouch, tap any item to
+      learn <em>why</em> it's there and when it saves you, and check things off as you pack.
+      Your checkmarks save on this device — pack against it at the trailhead.
     </p>
 
-    <div class="panel group">
-      <h2>On your body — always</h2>
-      <ul class="check">
-        <li><strong>Neck knife.</strong> Always on. Not in the pack, not in a pocket — on a cord, against your chest. Here's the scenario nobody plans for: you set the pack down to glass, follow a blood trail two ridges over, and now it's getting dark and the pack is a half-mile of deadfall behind you. Everything you own is in that pack — except the one tool hanging around your neck. A blade you're wearing can cut cordage, make fire prep, dress game, and free you from whatever you've tangled with. The knife in the pack is a tool. The knife on your body is a policy.</li>
-      </ul>
+    <div class="progress panel" id="progress-box">
+      <div class="progress-row">
+        <span class="progress-label">Packed <strong id="count">0</strong>/<span id="total">0</span></span>
+        <button type="button" class="reset" id="reset">Reset</button>
+      </div>
+      <div class="bar"><div class="bar-fill" id="bar"></div></div>
     </div>
 
-    <div class="panel group">
-      <h2>Weather</h2>
-      <ul class="check">
-        <li><strong>Rain gear — jacket and pants.</strong> Montana doesn't read the forecast. A bluebird morning can turn into sideways graupel by 2 p.m., and wet-plus-wind is how hypothermia starts in September, not January. The jacket is obvious; the pants are the part people skip and regret — soaked thighs pull heat out of you with every step.</li>
-        <li><strong>Gaiters.</strong> Wet grass before sunrise will soak your boots from the top down in twenty minutes — no rain required. Scree fills them from above, snow from everywhere. Dry feet aren't comfort, they're mileage: wet socks end trips.</li>
-        <li><strong>Pack rain cover.</strong> Your puffy and your sleeping layers are only insulation while they're dry. Down that's been rained on is dead weight with a zipper. The cover weighs a few ounces and protects the entire system that keeps you alive at 2 a.m.</li>
-        <li><strong>Bow string rain cover.</strong> The one even experienced bowhunters forget. A soaked string and cables change how your bow shoots — right at the moment a season's worth of practice is on the line. You maintained that string all summer; don't let a squall retune your bow on the pack-in.</li>
-        <li><strong>Tarp.</strong> The most versatile pound in the pack. Glassing shelter when the weather sits down on you. Shade over quarters on a warm afternoon. Ground cloth for the deboning job. Emergency bivy when the day goes long. No single item buys you more options per ounce.</li>
-      </ul>
-    </div>
+    <!-- ON YOUR BODY -->
+    <details class="kit" open>
+      <summary><span class="kit-name">On your body — always</span><span class="kit-count">1 item</span></summary>
+      <div class="items">
+        <div class="item">
+          <label><input type="checkbox" data-k="neck-knife" /> <strong>Neck knife</strong><span class="oneliner"> — worn, not packed. Ever.</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>The scenario nobody plans for: you drop your pack to glass, follow a blood trail two ridges over, and now it's dark and the pack is a half-mile of deadfall behind you. Everything you own is in that pack — except the blade on your chest.</p>
+            <p><strong>What it covers:</strong> cutting cordage, fire prep, dressing game, freeing yourself from whatever you've tangled with. The knife in the pack is a tool. The knife on your body is a policy.</p>
+          </details>
+        </div>
+      </div>
+    </details>
 
-    <div class="panel group">
-      <h2>Med kit</h2>
-      <ul class="check">
-        <li><strong>Lighter.</strong> Fire is first aid in the backcountry. Warmth against shock and hypothermia, sterilization, signal, morale. If a wreck happens, the first prescription is usually "get warm and think."</li>
-        <li><strong>Ointments.</strong> Antibiotic for the cuts you'll actually get, blister care for the hot spots you'll actually feel. Treat a hot spot at mile two and it's a footnote; ignore it and it's the whole story of your trip.</li>
-        <li><strong>Pain meds.</strong> Not for comfort — for function. A rolled ankle five miles in doesn't need to feel good, it needs to walk out.</li>
-        <li><strong>Bandages.</strong> Enough to close and cover, not a pharmacy. You're stabilizing for the walk out, not performing surgery.</li>
-        <li><strong>Disinfectant.</strong> Backcountry cuts live in dirt, blood, and game bags. Clean it now or explain it to a doctor later.</li>
-        <li><strong>Wool sock.</strong> The quiet genius of the kit. It's a pressure wrap, an improvised tourniquet, a mitten over a wrecked hand, and — worst case — a dry sock. One item, four jobs, zero extra weight. That's the standard everything in this pack has to meet.</li>
-      </ul>
-    </div>
+    <!-- WEATHER -->
+    <details class="kit">
+      <summary><span class="kit-name">Weather</span><span class="kit-count">5 items</span></summary>
+      <div class="items">
+        <div class="item">
+          <label><input type="checkbox" data-k="rain-gear" /> <strong>Rain gear</strong><span class="oneliner"> — jacket AND pants</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Montana doesn't read the forecast. Bluebird mornings turn into sideways graupel by 2 p.m., and wet-plus-wind is how hypothermia starts in September, not January.</p>
+            <p><strong>The mistake:</strong> everybody carries the jacket, half skip the pants. Soaked thighs pump heat out of you with every step of the walk out.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="gaiters" /> <strong>Gaiters</strong><span class="oneliner"> — dry feet are mileage</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Wet pre-dawn grass will soak boots from the top down in twenty minutes — no rain required. Scree fills them from above, snow from everywhere. Wet socks end trips; gaiters are the cheapest insurance against it.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="pack-cover" /> <strong>Pack rain cover</strong><span class="oneliner"> — protects the insulation that keeps you alive</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Your puffy and sleeping layers only work dry — down that's been rained on is dead weight with a zipper. A few ounces of cover protects the entire system you'd need on an unplanned night out.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="string-cover" /> <strong>Bow string rain cover</strong><span class="oneliner"> — the one bowhunters forget</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>A soaked string and cables change how your bow shoots — right when a season of practice is on the line. You babied that string all summer; don't let one squall retune your bow on the pack-in.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="tarp" /> <strong>Tarp</strong><span class="oneliner"> — the most versatile pound in the pack</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Glassing shelter when weather sits down on you. Shade over quarters on a warm afternoon. Clean surface for the deboning job. Emergency bivy when the day goes long. Nothing else buys more options per ounce.</p>
+          </details>
+        </div>
+      </div>
+    </details>
 
-    <div class="panel group">
-      <h2>Light &amp; power</h2>
-      <ul class="check">
-        <li><strong>Backup light.</strong> The headlamp you're wearing doesn't count — batteries die in the dark, not at the trailhead. Deadfall, blowdown timber, and blood trails all happen after sunset, and doing any of them by phone light is how a long night becomes a dangerous one. And make sure at least one lamp has a <a href="/reviews/headlamp-red-light-mode-night-hunting/">real red mode</a> — deer and coyotes essentially can't see red light, and bugs ignore it.</li>
-        <li><strong>Power brick.</strong> Your phone is your GPS, your map, your camera, and your emergency line — and cold kills batteries fast. A dead phone turns "I know exactly where I am" into a guess. Keep the brick warm and the phone alive.</li>
-      </ul>
-    </div>
+    <!-- MED KIT -->
+    <details class="kit">
+      <summary><span class="kit-name">Med kit</span><span class="kit-count">6 items</span></summary>
+      <div class="items">
+        <div class="item">
+          <label><input type="checkbox" data-k="med-lighter" /> <strong>Lighter</strong><span class="oneliner"> — fire is first aid</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Warmth against shock and hypothermia, sterilization, signal, morale. After a wreck, the first prescription is almost always "get warm and think." This one lives in the med kit so it's there when the kit comes out.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="ointments" /> <strong>Ointments</strong><span class="oneliner"> — blister care + antibiotic</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p><strong>Hot spot at mile two:</strong> stop immediately — not at the top, <em>now</em>. Tape or moleskin over the hot spot and it's a footnote. Hike through it and the blister is the whole story of your trip.</p>
+            <p><strong>Blister already formed:</strong> clean it, protect it, pad around it — the goal is finishing the trip without tearing it open.</p>
+            <p><strong>Cuts and scrapes:</strong> clean first, antibiotic ointment, cover. In the backcountry you're days from real care — a minor cut that gets infected stops being minor fast. The ointment is how a scratch stays a scratch.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="pain-meds" /> <strong>Pain meds</strong><span class="oneliner"> — for function, not comfort</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p><strong>The rolled ankle, five miles in:</strong> it doesn't need to feel good — it needs to walk out. An anti-inflammatory knocks the swelling back enough to keep the boot on and keep moving.</p>
+            <p><strong>The altitude headache:</strong> the throbber that shows up when you sleep high. Painkiller plus water plus rest usually settles it — and if it doesn't, that's your sign to lose elevation, not push higher.</p>
+            <p><strong>The fever night at camp:</strong> a fever reducer turns a miserable, sleepless night into recoverable rest so you can make a smart call in the morning.</p>
+            <p><strong>The rule:</strong> follow the label, stay hydrated, and treat meds as a tool to get out — not a way to keep hunting on an injury that's telling you to stop.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="bandages" /> <strong>Bandages</strong><span class="oneliner"> — close and cover, not a pharmacy</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Enough to close a cut and keep it closed while you move — assorted sizes plus tape. You're stabilizing for the walk out, not performing surgery on the mountain.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="disinfect" /> <strong>Disinfectant</strong><span class="oneliner"> — clean it now or explain it to a doctor later</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Backcountry cuts live in dirt, blood, and game bags — about the dirtiest environment a wound can ask for. Thirty seconds of stinging now beats a week of antibiotics later.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="wool-sock" /> <strong>Wool sock</strong><span class="oneliner"> — one item, four jobs</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>The quiet genius of the kit: it's a pressure wrap over a bleeding wound, an improvised tourniquet when things are truly bad, a mitten over a wrecked hand — and worst case, a dry sock.</p>
+            <p><strong>The standard it sets:</strong> everything in this pack should do two jobs or save your life. The sock does four for zero extra weight.</p>
+          </details>
+        </div>
+      </div>
+    </details>
 
-    <div class="panel group">
-      <h2>Food &amp; water</h2>
-      <ul class="check">
-        <li><strong>Stove with one meal.</strong> One hot meal is the difference between a survival night and a story you'll tell later. If you're benighted, hot food resets your head, warms your core, and buys you the judgment to make good decisions at midnight.</li>
-        <li><strong>Water.</strong> Carry what the day needs, and know where you'll get more before you leave the truck. Planning your water on the mountain is planning it too late.</li>
-        <li><strong>Emergency snacks.</strong> The calories you don't plan to eat. They ride at the bottom of the pack, trip after trip, until the day the trip goes sideways — and then they're the most important thing you packed. Don't raid them on a slow afternoon.</li>
-      </ul>
-    </div>
+    <!-- LIGHT & POWER -->
+    <details class="kit">
+      <summary><span class="kit-name">Light &amp; power</span><span class="kit-count">2 items</span></summary>
+      <div class="items">
+        <div class="item">
+          <label><input type="checkbox" data-k="backup-light" /> <strong>Backup light</strong><span class="oneliner"> — the one you're wearing doesn't count</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Batteries die in the dark, not at the trailhead. Deadfall, blowdown, and blood trails all happen after sunset — and doing them by phone light is how a long night turns dangerous.</p>
+            <p>Make sure at least one lamp has a <a href="/reviews/headlamp-red-light-mode-night-hunting/">real red mode</a> — deer and coyotes essentially can't see red light, and bugs ignore it.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="power-brick" /> <strong>Power brick</strong><span class="oneliner"> — the phone is GPS, map, and lifeline</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Cold kills phone batteries fast, and a dead phone turns "I know exactly where I am" into a guess. Keep the brick warm, keep the phone alive, and the map and emergency line stay in your pocket.</p>
+          </details>
+        </div>
+      </div>
+    </details>
 
-    <div class="panel group">
-      <h2>Kill kit</h2>
-      <ul class="check">
-        <li><strong>Lighter.</strong> Yes, a second one — one lives in the med kit, one lives here. Redundancy isn't paranoia when the item weighs eleven grams and makes fire.</li>
-        <li><strong>Gloves.</strong> Blood-soaked hands go numb fast in October, and clean meat care is easier when you're not rationing paper towels. Cheap, light, disposable.</li>
-        <li><strong>Construction trash bag.</strong> Contractor-grade, not kitchen-grade — kitchen bags shred the first time bone or brush touches them. It's a meat barrier on dirt, a pack liner in rain, a makeshift rain layer, and a clean surface anywhere you need one.</li>
-        <li><strong>Razor blades.</strong> Lighter than a spare knife, always surgically sharp, and they weigh nothing. When the real knife dulls halfway through a quartering job, a fresh blade finishes clean. Sharpening on the mountain is a skill; swapping a blade is a certainty.</li>
-      </ul>
-    </div>
+    <!-- FOOD & WATER -->
+    <details class="kit">
+      <summary><span class="kit-name">Food &amp; water</span><span class="kit-count">4 items</span></summary>
+      <div class="items">
+        <div class="item">
+          <label><input type="checkbox" data-k="stove-meal" /> <strong>Stove with one meal</strong><span class="oneliner"> — turns a survival night into a story</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>If you're benighted, one hot meal resets your head, warms your core, and buys you the judgment to make good decisions at midnight. It's not about hunger — it's about staying smart.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="water" /> <strong>Water</strong><span class="oneliner"> — carry the day, plan the refill</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Carry what the day needs and know where you'll get more <em>before</em> you leave the truck. Planning your water on the mountain is planning it too late.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="water-filter" /> <strong>Water filter</strong><span class="oneliner"> — every creek becomes a refill</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>The filter is what turns "know where you'll get more" from a hope into a plan. When the marked spring is a dry rock bed and the only water is a stock pond that's seen a hundred elk, the filter makes it drinkable and keeps giardia from ending your season.</p>
+            <p><strong>Cold-weather warning most people learn the hard way:</strong> a frozen filter is a broken filter — freezing wrecks the internals invisibly. On cold nights it sleeps in the bag with you, not in the pack.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="snacks" /> <strong>Emergency snacks</strong><span class="oneliner"> — the calories you don't plan to eat</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>They ride at the bottom of the pack, trip after trip, until the day the trip goes sideways — then they're the most important thing you packed. Don't raid them on a slow afternoon.</p>
+          </details>
+        </div>
+      </div>
+    </details>
 
-    <p class="muted">
-      Read the list again and the pattern shows itself: fire appears twice, in two different
-      pockets. The sock, the tarp, and the trash bag each do three or four jobs. And the knife
-      never leaves the body. That's the whole doctrine — weight goes to things that do two jobs
-      or save your life. Everything else stays in the truck.
+    <!-- KILL KIT -->
+    <details class="kit">
+      <summary><span class="kit-name">Kill kit</span><span class="kit-count">4 items</span></summary>
+      <div class="items">
+        <div class="item">
+          <label><input type="checkbox" data-k="kill-lighter" /> <strong>Lighter</strong><span class="oneliner"> — yes, a second one</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>One lives in the med kit, one lives here. Redundancy isn't paranoia when the item weighs eleven grams and makes fire. Notice fire is the only thing on this list twice — that's on purpose.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="gloves" /> <strong>Gloves</strong><span class="oneliner"> — cheap, light, disposable</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Blood-soaked hands go numb fast in October, and clean meat care is easier when you're not rationing wipes. A few pairs weigh nothing.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="trash-bag" /> <strong>Construction trash bag</strong><span class="oneliner"> — contractor-grade, not kitchen-grade</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>Kitchen bags shred the first time bone or brush touches them. Contractor-grade is a meat barrier on dirt, a pack liner in rain, an emergency rain layer, and a clean surface anywhere you need one.</p>
+          </details>
+        </div>
+        <div class="item">
+          <label><input type="checkbox" data-k="razors" /> <strong>Razor blades</strong><span class="oneliner"> — always surgically sharp, weigh nothing</span></label>
+          <details class="notes"><summary>Field notes</summary>
+            <p>When the real knife dulls halfway through a quartering job, a fresh blade finishes clean. Sharpening on the mountain is a skill; swapping a blade is a certainty.</p>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <p class="muted doctrine">
+      Read the kit again and the pattern shows itself: fire appears twice, in two different pouches.
+      The sock, the tarp, and the trash bag each do three or four jobs. The knife never leaves the
+      body. That's the whole doctrine — <strong>weight goes to things that do two jobs or save your
+      life.</strong> Everything else stays in the truck.
     </p>
 
     <TipJar heading="This list is free. The testing isn't." />
@@ -86,13 +220,134 @@ import TipJar from '../components/TipJar.astro';
   </section>
 </Layout>
 
+<script>
+  const boxes = Array.from(document.querySelectorAll('input[type="checkbox"][data-k]'));
+  const KEY = 'sa-packlist-v1';
+  const saved = JSON.parse(localStorage.getItem(KEY) || '{}');
+  const count = document.getElementById('count');
+  const total = document.getElementById('total');
+  const bar = document.getElementById('bar');
+  total.textContent = String(boxes.length);
+  function refresh() {
+    const n = boxes.filter(b => b.checked).length;
+    count.textContent = String(n);
+    bar.style.width = (boxes.length ? (n / boxes.length) * 100 : 0) + '%';
+    if (n === boxes.length && n > 0) bar.classList.add('done'); else bar.classList.remove('done');
+  }
+  boxes.forEach(b => {
+    if (saved[b.dataset.k]) b.checked = true;
+    b.addEventListener('change', () => {
+      saved[b.dataset.k] = b.checked;
+      localStorage.setItem(KEY, JSON.stringify(saved));
+      refresh();
+    });
+  });
+  document.getElementById('reset').addEventListener('click', () => {
+    boxes.forEach(b => { b.checked = false; });
+    localStorage.removeItem(KEY);
+    Object.keys(saved).forEach(k => delete saved[k]);
+    refresh();
+  });
+  refresh();
+</script>
+
 <style>
   section { margin-top: 3rem; }
   h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); margin: 0.5rem 0 1rem; }
   .lede { color: var(--muted); font-size: 1.08rem; }
-  .group { margin-top: 1.25rem; }
-  .group h2 { margin-top: 0; font-size: 1.15rem; }
-  .check { padding-left: 1.2rem; margin-bottom: 0; }
-  .check li { margin-bottom: 0.7rem; }
-  p.muted { margin-top: 1.5rem; }
+
+  .progress { position: sticky; top: 4.2rem; z-index: 5; margin: 1.5rem 0; padding: 0.9rem 1.2rem; }
+  .progress-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.55rem; }
+  .progress-label { font-size: 0.95rem; color: var(--muted); }
+  .progress-label strong { color: var(--text); font-size: 1.05rem; }
+  .reset { background: none; border: 1px solid var(--border); color: var(--muted); border-radius: 6px; padding: 0.25rem 0.7rem; font-size: 0.78rem; cursor: pointer; }
+  .reset:hover { border-color: var(--accent); color: var(--accent); }
+  .bar { height: 6px; background: var(--bg-alt); border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent), var(--accent-hover)); border-radius: 3px; transition: width 0.3s ease; }
+  .bar-fill.done { box-shadow: 0 0 12px rgba(224,86,43,0.6); }
+
+  .kit {
+    background: linear-gradient(180deg, var(--panel-glow), var(--panel));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+  .kit > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 1.3rem;
+    font-weight: 800;
+    font-size: 1.05rem;
+    user-select: none;
+  }
+  .kit > summary::-webkit-details-marker { display: none; }
+  .kit > summary::before {
+    content: '';
+    display: inline-block;
+    width: 1.9rem;
+    height: 0.62rem;
+    margin-right: 0.6rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 44'%3E%3Cpath d='M0 32 H34 L44 32 L58 6 L70 40 L78 32 H108' fill='none' stroke='%23e0562b' stroke-width='7' stroke-linejoin='round' stroke-linecap='round'/%3E%3Ccircle cx='126' cy='32' r='9' fill='%23e0562b'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: none;
+  }
+  .kit-name { flex: 1; }
+  .kit-count { color: var(--muted); font-size: 0.8rem; font-weight: 600; transition: transform 0.2s; }
+  .kit[open] > summary { border-bottom: 1px solid var(--border-soft); }
+  .kit[open] .kit-count { color: var(--accent); }
+
+  .items { padding: 0.4rem 1.3rem 1rem; }
+  .item { border-bottom: 1px solid var(--border-soft); padding: 0.75rem 0; }
+  .item:last-child { border-bottom: none; }
+  .item label { display: flex; align-items: baseline; gap: 0.6rem; cursor: pointer; line-height: 1.5; }
+  .item input[type='checkbox'] {
+    appearance: none;
+    flex: none;
+    width: 1.15rem; height: 1.15rem;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    background: var(--bg-alt);
+    cursor: pointer;
+    position: relative;
+    top: 0.15rem;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .item input[type='checkbox']:checked { background: var(--accent); border-color: var(--accent); }
+  .item input[type='checkbox']:checked::after {
+    content: '';
+    position: absolute;
+    left: 0.3rem; top: 0.06rem;
+    width: 0.3rem; height: 0.6rem;
+    border: solid #fff;
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg);
+  }
+  .item input[type='checkbox']:checked ~ * { }
+  .item:has(input:checked) label strong { color: var(--muted); }
+  .item:has(input:checked) .oneliner { text-decoration: line-through; opacity: 0.6; }
+  .oneliner { color: var(--muted); }
+
+  .notes { margin: 0.35rem 0 0 1.75rem; }
+  .notes summary {
+    list-style: none;
+    cursor: pointer;
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    user-select: none;
+  }
+  .notes summary::-webkit-details-marker { display: none; }
+  .notes summary::after { content: ' +'; }
+  .notes[open] summary::after { content: ' −'; }
+  .notes p { font-size: 0.95rem; color: var(--muted); margin: 0.6rem 0; }
+  .notes p strong { color: var(--text); }
+
+  .doctrine { margin-top: 2rem; }
 </style>
