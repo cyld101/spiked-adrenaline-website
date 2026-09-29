@@ -1,0 +1,22 @@
+---
+interface Props {
+  heading?: string;
+}
+const { heading = 'Keep the tests coming' } = Astro.props;
+---
+<div class="panel tipjar">
+  <p class="eyebrow">Reader-funded</p>
+  <h2>{heading}</h2>
+  <p>
+    <strong>No sponsors. No ads. No affiliate strings — yet.</strong> Every review here is
+    bought with our own money and tested on our own miles. If one saved you from an expensive
+    mistake — or talked you into the right one — the tip jar keeps the next field test funded.
+  </p>
+  <a class="btn" href="https://ko-fi.com/spikedadrenaline" target="_blank" rel="noopener">Fuel the next field test ☕</a>
+</div>
+
+<style>
+  .tipjar { margin-top: 2rem; }
+  .tipjar h2 { margin: 0.25rem 0 0.75rem; font-size: 1.25rem; }
+  .tipjar p { color: var(--muted); }
+</style>

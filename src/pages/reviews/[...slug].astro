@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import EmailCTA from '../../components/EmailCTA.astro';
+import TipJar from '../../components/TipJar.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -29,6 +30,7 @@ const { Content } = await render(review);
     <div class="content">
       <Content />
     </div>
+    <TipJar />
     <EmailCTA heading="More verdicts like this" blurb="Join the list and get every new field test the day it publishes." />
   </article>
 </Layout>
