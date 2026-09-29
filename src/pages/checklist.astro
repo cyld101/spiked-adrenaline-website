@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EmailCTA from '../components/EmailCTA.astro';
+---
+<Layout
+  title="The Montana Backcountry Day-Pack Checklist — Spiked Adrenaline"
+  description="The exact list we run before every pack-in. Weather, med kit, kill kit, and the pieces that save a trip — or a life. Field-proven, no filler."
+>
+  <section class="wrap">
+    <p class="eyebrow">The checklist</p>
+    <h1>The Montana Backcountry Day-Pack Checklist</h1>
+    <p class="lede">
+      This is the exact list we check before every pack-in. Print it, screenshot it, tape it
+      to the inside of your pack lid. Every item has earned its spot on a real trip — usually
+      the hard way.
+    </p>
+
+    <div class="panel group">
+      <h2>On your body — always</h2>
+      <ul class="check">
+        <li><strong>Neck knife.</strong> Always on. Not in the pack, not in a pocket — on you. If you and your pack ever part ways, this is the tool that's still there.</li>
+      </ul>
+    </div>
+
+    <div class="panel group">
+      <h2>Weather</h2>
+      <ul class="check">
+        <li><strong>Rain gear</strong> — jacket and pants. Montana weather doesn't check the forecast either.</li>
+        <li><strong>Gaiters</strong> — wet grass and scree fill boots fast.</li>
+        <li><strong>Pack rain cover</strong> — your insulation is only insulation while it's dry.</li>
+        <li><strong>Bow string rain cover</strong> — the one bowhunters forget. A soaked string changes your bow.</li>
+        <li><strong>Tarp</strong> — shelter, glassing cover, meat shade, emergency bivy. The most versatile pound in the pack.</li>
+      </ul>
+    </div>
+
+    <div class="panel group">
+      <h2>Med kit</h2>
+      <ul class="check">
+        <li><strong>Lighter</strong> — fire is first aid in the backcountry.</li>
+        <li><strong>Ointments</strong> — antibiotic, blister care.</li>
+        <li><strong>Pain meds</strong></li>
+        <li><strong>Bandages</strong></li>
+        <li><strong>Disinfectant</strong></li>
+        <li><strong>Wool sock</strong> — doubles as an improvised tourniquet or pressure wrap. Dual-use beats single-use at altitude.</li>
+      </ul>
+    </div>
+
+    <div class="panel group">
+      <h2>Light &amp; power</h2>
+      <ul class="check">
+        <li><strong>Backup light</strong> — the headlamp you're wearing doesn't count. Batteries die in the dark, not at the trailhead.</li>
+        <li><strong>Power brick</strong> — phone is GPS, map, and emergency line. Keep it alive.</li>
+      </ul>
+    </div>
+
+    <div class="panel group">
+      <h2>Food &amp; water</h2>
+      <ul class="check">
+        <li><strong>Stove with one meal</strong> — one hot meal turns a survival night into a story.</li>
+        <li><strong>Water</strong> — carry it, and know where you'll get more.</li>
+        <li><strong>Emergency snacks</strong> — the calories you don't plan to eat. They stay in the pack until the day they matter.</li>
+      </ul>
+    </div>
+
+    <div class="panel group">
+      <h2>Kill kit</h2>
+      <ul class="check">
+        <li><strong>Lighter</strong> — yes, a second one. One lives in the med kit, one lives here.</li>
+        <li><strong>Gloves</strong></li>
+        <li><strong>Construction trash bag</strong> — contractor-grade, not kitchen-grade. Meat care, pack liner, emergency rain layer.</li>
+        <li><strong>Razor blades</strong> — lighter than a spare knife, always sharp, and they weigh nothing.</li>
+      </ul>
+    </div>
+
+    <p class="muted">
+      Notice what's on here twice (fire), what's dual-use (the sock, the tarp, the trash bag),
+      and what never leaves the body (the knife). That's the pattern: weight goes to things
+      that do two jobs or save your life. Everything else stays in the truck.
+    </p>
+
+    <EmailCTA />
+  </section>
+</Layout>
+
+<style>
+  section { margin-top: 3rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); margin: 0.5rem 0 1rem; }
+  .lede { color: var(--muted); font-size: 1.08rem; }
+  .group { margin-top: 1.25rem; }
+  .group h2 { margin-top: 0; font-size: 1.15rem; }
+  .check { padding-left: 1.2rem; margin-bottom: 0; }
+  .check li { margin-bottom: 0.55rem; }
+  p.muted { margin-top: 1.5rem; }
+</style>
