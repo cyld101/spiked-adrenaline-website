@@ -1,6 +1,6 @@
 ---
 title: "Two Years in a PEAX Dyneema Tipi with a Winnerwell Titanium Stove: The Honest Hot-Tent Review"
-description: "I melted a Kuiu tent, folded a stove pipe in half, and still won't camp any other way. Two years of real use in the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove — failures, fixes, and all."
+description: "I melted a KUIU tent, folded a stove pipe in half, and still won't camp any other way. Two years of real use in the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove — failures, fixes, and all."
 pubDate: 2026-09-28
 gear: ["PEAX Solitude 4 Tipi (Dyneema)", "Winnerwell Fastfold Titanium Stove", "PEAX Solitude 4 Half Nest"]
 verdict: "The best backcountry shelter system I've ever run — a ~6-7 lb hot tent that turns miserable trips into good ones — but it's for people willing to learn, not a pop-and-go system."
@@ -29,9 +29,9 @@ The tipi sleeps four with no gear, but realistically it's two people plus gear p
 
 <!-- TODO PHOTO: full system laid out on a scale — tipi, pole, stakes, stove, pipe. Caption with actual weigh-in numbers. -->
 
-## Why Dyneema, or: the time I melted a Kuiu tent
+## Why Dyneema, or: the time I melted a KUIU tent
 
-I didn't start here. I started by running a wood stove in a Kuiu tent, and I melted it. That's the whole story — hot stove, wrong shelter, melted tent. That mistake is why I went to a purpose-built Dyneema tipi with a real stove jack, and it's why I ordered mine with no netting and no floor: less material near the fire, less to melt, less to go wrong.
+I didn't start here. I started by running a wood stove in a KUIU tent, and I melted it. That's the whole story — hot stove, wrong shelter, melted tent. That mistake is why I went to a purpose-built Dyneema tipi with a real stove jack, and it's why I ordered mine with no netting and no floor: less material near the fire, less to melt, less to go wrong.
 
 Two years and every single trip later: nothing better. No comparison. The other tipis that can match this durability are ten times the weight. Dyneema doesn't stretch, doesn't sag when it's wet, and shrugs off wind that would have flattened my old setups.
 
@@ -99,7 +99,7 @@ That's the doctrine I want you to take from this review: **most negative reviews
 
 ## Gear I'm still hunting for
 
-The missing piece of this system is a true backpacking pickaxe for digging flat beds and fire pits — Kuiu discontinued theirs and nothing has filled the hole. At the PEAX grand opening I got a look in the test room at a pickaxe/walking-stick combo they're prototyping. If that ships, it completes the kit. Watching that one closely.
+The missing piece of this system is a true backpacking pickaxe for digging flat beds and fire pits — KUIU discontinued theirs and nothing has filled the hole. At the PEAX grand opening I got a look in the test room at a pickaxe/walking-stick combo they're prototyping. If that ships, it completes the kit. Watching that one closely.
 
 ## Who should NOT buy this
 
@@ -113,7 +113,7 @@ I mean this sincerely, not as reverse psychology:
 
 ## Verdict
 
-Two years, every trip, one melted Kuiu tent behind me and one folded stove pipe on my own scorecard: the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove is the best shelter system I have ever used, full stop. Roughly 6–7 lbs buys you a heated, standing-height shelter, unlimited hot water, built-in bug incineration, and the kind of comfort that put my girlfriend's dad back on the mountain. Nothing better. No comparison.
+Two years, every trip, one melted KUIU tent behind me and one folded stove pipe on my own scorecard: the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove is the best shelter system I have ever used, full stop. Roughly 6–7 lbs buys you a heated, standing-height shelter, unlimited hot water, built-in bug incineration, and the kind of comfort that put my girlfriend's dad back on the mountain. Nothing better. No comparison.
 
 But it's a system you operate, not a product you use. Learn the stove, clean the arrestor daily, pick your sites, stake it like you mean it, and carry patches. Do that, and you'll wonder how you ever camped cold.
 
@@ -126,7 +126,7 @@ Two hours of solid coals, reliably. Three hours if the airflow and wood are dial
 It can be, if you treat it like the serious tool it is: spark arrestor cleaned daily, dry seasoned wood, damper set, and — my habit — sleep at the tipi's edge with your face toward the door gap so you've always got fresh air low. If any of that sounds like too much effort, let the fire die before you sleep.
 
 **Why no floor and no bug net?**
-I melted a Kuiu tent running a stove in it. Less flammable material near the fire is the whole design philosophy. Floorless also lets you dig a flat bed and keeps that life-saving fresh-air gap at the skirt. Bugs mostly solve themselves — they fly a little too close to the sun and disintegrate on the hot pipe. I may add the PEAX Half Nest (bug mesh over the sleeping half only) and will report how it lives next to a stove.
+I melted a KUIU tent running a stove in it. Less flammable material near the fire is the whole design philosophy. Floorless also lets you dig a flat bed and keeps that life-saving fresh-air gap at the skirt. Bugs mostly solve themselves — they fly a little too close to the sun and disintegrate on the hot pipe. I may add the PEAX Half Nest (bug mesh over the sleeping half only) and will report how it lives next to a stove.
 
 **Dyneema or silnylon?**
 Dyneema if the budget allows: no stretch, no sag when wet, absurdly strong for under 2 lbs. Mine survived a windstorm that folded a titanium stove pipe in half. But it's a big price jump for roughly half a pound, so silnylon is the rational pick for most people. Either way the failures you read about in reviews are mostly user error — bad sites and lazy stake-outs — not fabric.
