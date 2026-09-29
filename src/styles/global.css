@@ -1,64 +1,145 @@
 :root {
-  --bg: #12100e;
-  --bg-alt: #1c1915;
-  --panel: #24201a;
-  --border: #3a332a;
-  --text: #e8e2d6;
+  --bg: #100e0c;
+  --bg-alt: #17140f;
+  --panel: #1e1a14;
+  --panel-glow: #262117;
+  --border: #332c22;
+  --border-soft: #2a241b;
+  --text: #ece6da;
   --muted: #a89d8a;
   --accent: #e0562b;
   --accent-hover: #f26a3e;
+  --accent-dim: rgba(224, 86, 43, 0.14);
   --max: 44rem;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background: var(--bg);
+  background-image: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(224, 86, 43, 0.05), transparent);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.65;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
-h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
-a { color: var(--accent); }
+::selection { background: var(--accent); color: #fff; }
+h1, h2, h3 { line-height: 1.15; letter-spacing: -0.015em; font-weight: 800; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s; }
 a:hover { color: var(--accent-hover); }
 img { max-width: 100%; height: auto; }
+
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+
 .btn {
   display: inline-block;
-  background: var(--accent);
+  background: linear-gradient(180deg, var(--accent-hover), var(--accent));
   color: #fff;
   font-weight: 700;
   text-decoration: none;
   border: none;
-  border-radius: 6px;
-  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  padding: 0.85rem 1.6rem;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.15s;
+  letter-spacing: 0.01em;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset, 0 4px 14px rgba(224, 86, 43, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
 }
-.btn:hover { background: var(--accent-hover); color: #fff; }
+.btn:hover {
+  color: #fff;
+  filter: brightness(1.07);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset, 0 8px 22px rgba(224, 86, 43, 0.35);
+}
+.btn:active { transform: translateY(0); }
+
 .panel {
-  background: var(--panel);
+  background: linear-gradient(180deg, var(--panel-glow), var(--panel));
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.5rem;
+  border-radius: 14px;
+  padding: 1.6rem;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.03) inset, 0 10px 30px rgba(0,0,0,0.25);
 }
+
 .muted { color: var(--muted); }
+
 .eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
   font-weight: 700;
   color: var(--accent);
 }
+.eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 1.4rem;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  border-radius: 1px;
+}
+
 input[type='email'] {
   width: 100%;
   padding: 0.85rem 1rem;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--bg-alt);
   color: var(--text);
   font-size: 1rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
-input[type='email']:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+input[type='email']:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+/* ——— Article content polish ——— */
+.content :global(img), .content img {
+  border-radius: 12px;
+  border: 1px solid var(--border-soft);
+  display: block;
+  margin: 1.75rem auto 0.5rem;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+}
+.content :global(img + em), .content img + em {
+  display: block;
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem auto 1.75rem;
+  max-width: 34rem;
+}
+.content :global(strong), .content strong { color: #fff; }
+.content :global(h2)::after {
+  content: '';
+  display: block;
+  width: 3.5rem;
+  height: 2px;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  border-radius: 1px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 2.5rem 0;
+}
+
+/* EKG pulse divider utility */
+.pulse-divider {
+  display: block;
+  width: 100%;
+  max-width: 16rem;
+  margin: 2.5rem auto;
+  opacity: 0.7;
+}

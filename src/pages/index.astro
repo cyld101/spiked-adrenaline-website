@@ -48,12 +48,27 @@ const reviews = (await getCollection('reviews', ({ data }) => !data.draft))
 
 <style>
   .hero {
+    position: relative;
     background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
     border-bottom: 1px solid var(--border);
-    padding: 4rem 0 3.5rem;
+    padding: 4.5rem 0 4rem;
     text-align: left;
+    overflow: hidden;
   }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -390 1064 480' preserveAspectRatio='xMidYMid meet'%3E%3Cpath d='M 500 0 L 569 -252 L 596 0 Z' fill='%23e0562b'/%3E%3Cpath d='M 569 -252 L 658 0 L 596 0 Z' fill='%23e0562b' opacity='0.85'/%3E%3Cpath d='M 40 0 L 162 0 Q 180 0 188.53 -15.85 L 203.26 -43.2 Q 208 -52 212.74 -43.2 L 227.47 -15.85 Q 236 0 254 0 L 298 0 Q 316 0 322.41 -16.82 L 344.44 -74.66 Q 348 -84 351.56 -74.66 L 373.59 -16.82 Q 380 0 398 0 L 434 0 Q 452 0 462.64 14.52 L 465.72 18.71 Q 474 30 477.25 16.38 L 566 -356 L 689.73 30.67 Q 694 44 701.52 32.19 L 712.34 15.19 Q 722 0 740 0 L 876 0' fill='none' stroke='%23ece6da' stroke-width='38' stroke-linejoin='round'/%3E%3Ccircle cx='988' cy='0' r='25' fill='%23e0562b'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right -8% bottom -20%;
+    background-size: 34rem;
+    opacity: 0.05;
+    pointer-events: none;
+  }
+  .hero .wrap { position: relative; }
   .hero h1 { font-size: clamp(2.4rem, 8vw, 3.6rem); margin: 0.5rem 0 1rem; font-weight: 900; }
+  .hero h1 :global(br) + * { color: var(--accent); }
   .lede { font-size: 1.1rem; color: var(--muted); max-width: 34rem; }
   .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-top: 1.75rem; }
   .ghost { color: var(--text); font-weight: 700; text-decoration: none; }
