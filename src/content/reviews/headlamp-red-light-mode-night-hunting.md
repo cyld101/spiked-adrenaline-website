@@ -20,17 +20,26 @@ And my favorite test subjects: my own dogs. Pitch black, red light on, and these
 
 So no, a headlamp is not just a headlamp. If you're hunting, the red mode is the whole point.
 
+![Two PEAX headlamps side by side — the olive green-mode lamp and the black red-mode lamp](/images/reviews/peax-headlamps-pair.jpg)
+*The test fleet: PEAX's green version (left) and red version (right). Two lamps, three batteries — more on that below.*
+
 ## The actual science (not campfire talk)
 
 This isn't mystery or luck — it's cone cells. Humans are trichromats: we carry red, green, and blue-sensitive cones. Deer, elk, and other ungulates are **dichromats** — they have blue-sensitive and green-sensitive cones, and no red cone at all. Light up at the red end of the spectrum and their eyes barely register it: red reads to them as a dim gray smudge, if it reads at all. Dogs and coyotes are built the same way — dichromatic, blue-and-yellow vision, effectively blind to red as *red*.
 
 The trade-off is that what's invisible to them is also dim to you. Red light to a human eye is flat and dull — you lose detail and depth. That's the price of stealth, and it's worth paying on the walk-in.
 
+![PEAX headlamp with the red mode on, casting a red beam](/images/reviews/peax-headlamp-red-beam.jpg)
+*What the approach looks like: dim to you, essentially nothing to a deer.*
+
 ## Red vs green: the test in progress
 
 PEAX makes their headlamp in a red version and a green version, and green is the interesting one. To the human eye green reads almost like white — bright, detailed, easy to work under. And because ungulate eyes are least sensitive at the far red end and only moderately sensitive in green, green is *supposed* to buy you most of the stealth with much better visibility.
 
 How we actually run them: around camp, my fiancée has the green one cranked up while we're getting ready — it's simply better light to function under. Once we're hiking in, the red comes on, or we swap and she takes the red. Camp is a green job; the approach is a red job.
+
+![PEAX headlamp with the green mode on, casting a bright green beam](/images/reviews/peax-headlamp-green-beam.jpg)
+*The green version at work — noticeably brighter and more detailed to the human eye than red.*
 
 Is green truly as stealthy as red on pressured animals? That's exactly the kind of claim we don't repeat until we've lived it. One season isn't enough to know. The green lamp is in the test rotation now — we'll report back when we've got real nights behind it.
 
@@ -39,6 +48,9 @@ Is green truly as stealthy as red on pressured animals? That's exactly the kind 
 Here's the bonus nobody puts on the box: **bugs largely ignore red light.** I've run a two-color lamp side by side — flip on the white beam and the swarm finds your face in minutes; flip to red and they lose interest. It's real, and it tracks with the science: most insects orient to ultraviolet and blue-white light, the exact thing your bright white beam is pumping out. Red sits at the far end of the spectrum they care least about.
 
 On a July scouting trip, that trick alone might be worth the price of the lamp.
+
+![PEAX headlamp with the white mode on, casting a bright white beam](/images/reviews/peax-headlamp-white-beam.jpg)
+*Same lamp, white mode: great for blood trails and camp chores — and a dinner bell for every bug in the county.*
 
 ## Battery doctrine
 
