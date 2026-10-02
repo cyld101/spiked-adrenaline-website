@@ -25,7 +25,7 @@ One favor before we start: read this one all the way to the end. The cozy storie
 
 ## What I run (and what it actually weighs)
 
-- **Shelter:** PEAX Solitude 4 Tipi in Dyneema. Shelter body alone is right around 2 lbs (PEAX lists it at 1 lb 14.2 oz; packed weight with the carbon center pole, 12 stakes, cording, and bags is 3 lb 5.9 oz). Current price: $1,325. I ordered mine with no bug net and no floor — more on why below. It pitches off a center pole, and you can rig trekking-pole support instead.
+- **Shelter:** PEAX Solitude 4 Tipi in Dyneema. Shelter body alone is right around 2 lbs (PEAX lists it at 1 lb 14.2 oz; packed weight with the carbon center pole, 12 stakes, cording, and bags is 3 lb 5.9 oz). Current price: $1,325. I ordered mine with no bug net and no floor — more on why below. It pitches off a carbon center pole, and trekking poles rig in alongside it for extra stabilization — they work together, not as a replacement.
 - **Stove:** Winnerwell Fastfold Titanium 15-inch box stove — 4 lbs for stove + chimney, $599, with a 3-inch-diameter, 108-inch rolled pipe. I deliberately went with the bigger firebox: a longer box takes longer sticks, and longer sticks mean longer burns. One honest gripe: it burns great and it's easy to run, but it doesn't pack down as neatly as you'd hope — a little awkward in the pack. Still worth it, every trip.
 - **Pipe:** the 9-foot chimney. That's not overkill — a tall pipe puts the exit well above the tipi so hot ash isn't raining down on your Dyneema.
 - **Whole system, real-world:** about 6–7 lbs on my scale, everything included. Read that again. A heated, standing-height, four-person shelter for the weight of some solo tent-and-pad setups.
@@ -117,7 +117,7 @@ That's the doctrine I want you to take from this review: **most negative reviews
 
 - **E-scout your site.** Find a flat bench out of the wind before you ever leave the truck. Terrain is your first guy line.
 - **Stake it tight to the ground.** No draft gap around the bottom edge. A loose pitch flaps, chills you, and feeds sparks oxygen. Dig or scrape a flat bed if you have to.
-- **Use the trekking-pole stabilization.** The tipi pitches off its center pole, but it also rigs with trekking poles for extra stabilization — and in wind country that structure is free insurance. The night I learned to use every stabilization point the system offers is the night the tent stopped shaking.
+- **Use the trekking-pole stabilization.** The carbon center pole holds the tipi up; trekking poles rig in conjunction with it to brace the structure — and in wind country that combined skeleton is free insurance. The night I learned to use every stabilization point the system offers is the night the tent stopped shaking.
 - **Stake out everything, every time** — including the pipe. Use a rock or hammer on the stakes. In snow, stake it like always, then bury the edges — packed snow seals the skirt and locks the pitch down better than stakes alone. It's an upgrade on top of staking, not a replacement for it.
 - **Carry patches, always.** My only damage in two years of hard use is one rub hole where a titanium stove corner rested against the Dyneema and sawed at it all night — my fault again. Field-patched it in minutes. Dyneema patches weigh nothing. Never leave without them.
 
