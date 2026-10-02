@@ -64,6 +64,10 @@ That said, I do want to try the PEAX Half Nest with this setup — it's a half-f
 
 I already told you about jet-boiling my own frozen water. The stove ends that era permanently. Snow becomes water, ice becomes coffee, evenings become pot-after-pot tea sessions. Your fuel is free and it's lying all over the ground.
 
+### The drying room you carry at six pounds
+
+This might be the most underrated thing the system does: **the ability to dry things out is life-changing.** Wet boots, soaked socks, sweated-out base layers, rain gear that got tested for real — hang it in a stove-warmed tipi and it's dry by morning. In a normal tent, wet gear at dark is wet gear at dawn, and wet gear in the cold is how trips end early and how feet get wrecked. In this one, a soaked day is just a story you tell while your boots steam next to the stove. Day two starts dry. That changes what weather you're willing to hunt through, which changes how much mountain you actually get to use.
+
 ## The honest learning curve (read this part twice)
 
 Here's where I lose the people who wanted a five-star fluff review. This system has a real learning curve, and part of it is life-or-death serious.
@@ -76,6 +80,8 @@ Now the part that should reassure you: this risk is entirely in your control. A 
 
 I grew up running a wood stove at home, so I understand backdraft in my bones. If you've never operated a wood stove, respect that gap and close it before you sleep next to one.
 
+And back the habit with hardware: **bring a carbon monoxide detector.** A small battery-powered CO alarm weighs a few ounces and stands watch while you sleep — the exact hours you can't watch the stove yourself. The daily arrestor cleaning removes the failure mode; the detector is the smoke alarm behind it. For a few ounces and a few dollars, there's no version of this math where you leave it home.
+
 ### My insurance policy: sleep low, face out
 
 Even with a clean arrestor, I stack the odds. A floorless tipi doesn't seal to the ground — there's a gap all the way around the bottom edge, and the stove is constantly pulling fresh outside air in through it to feed the fire. So I sleep right up against the tipi wall with my face turned toward that floor gap, breathing the clean, cold air sliding in from outside. The wall position does double duty: fresh air at my face, and maximum distance between my sleeping bag and a hot titanium stove — that's a touch-test I never want to run. Smoke rises; I sleep where the good air is. Free habit, might save your life.
@@ -84,7 +90,9 @@ One more floorless detail: read the ground before you bed down. No floor means n
 
 ### Burn-time truth
 
-Anyone telling you their backpacking stove burns all night untouched is selling something. Real numbers from two years: **2 hours of solid coals is dependable. 3 hours is iffy.** Anything past 2 hours takes dialed airflow and the right wood. You will wake up cold at 3 a.m. sometimes and either feed it or ride it out.
+Anyone telling you their backpacking stove burns all night untouched is selling something. Real numbers from two years: **2 hours of solid heat-throwing coals is dependable. 3 hours is iffy.** Anything past 2 hours takes dialed airflow and the right wood. You will wake up cold at 3 a.m. sometimes and either feed it or ride it out.
+
+But here's the advanced class, because heat-burn and coal-survival are two different games: **learn to slow-burn the stove and the morning changes.** My best result — damper choked down, airflow just barely alive, the right wood loaded long — is coals that were still alive after a full 8 hours of sleep, live enough to light the morning fire with no starter and no ceremony. The stove wasn't heating the tipi at hour six; that's not the claim. The claim is you wake up, crack the damper, feed it, and have flame in seconds while the other guy is still fumbling with a lighter in his bag. Banked coals are the difference between a morning fire and a morning project.
 
 My dream project — future article, I promise — is an engineered 8-hour log: one log split in four, kindling core, fire starter set at the front, bundled so it burns back slowly all night. Plus a fast-heat morning log for the get-out-of-the-bag moment. I'm going to build and test these.
 
@@ -109,6 +117,7 @@ That's the doctrine I want you to take from this review: **most negative reviews
 
 - **E-scout your site.** Find a flat bench out of the wind before you ever leave the truck. Terrain is your first guy line.
 - **Stake it tight to the ground.** No draft gap around the bottom edge. A loose pitch flaps, chills you, and feeds sparks oxygen. Dig or scrape a flat bed if you have to.
+- **Use the trekking-pole stabilization.** The tipi pitches off its center pole, but it also rigs with trekking poles for extra stabilization — and in wind country that structure is free insurance. The night I learned to use every stabilization point the system offers is the night the tent stopped shaking.
 - **Stake out everything, every time** — including the pipe. Use a rock or hammer on the stakes. In snow, stake it like always, then bury the edges — packed snow seals the skirt and locks the pitch down better than stakes alone. It's an upgrade on top of staking, not a replacement for it.
 - **Carry patches, always.** My only damage in two years of hard use is one rub hole where a titanium stove corner rested against the Dyneema and sawed at it all night — my fault again. Field-patched it in minutes. Dyneema patches weigh nothing. Never leave without them.
 
@@ -142,10 +151,10 @@ But it's a system you operate, not a product you use. That's not a flaw — for 
 ## FAQ
 
 **How long does the stove actually burn?**
-Two hours of solid coals, reliably. Three hours if the airflow and wood are dialed, and I'd call that iffy. Plan to feed it overnight or accept a cold stretch before dawn. Anyone claiming 8 hours from a 4-lb titanium stove is dreaming — which is exactly why I'm engineering an 8-hour log bundle as a project.
+For heat: two hours of solid coals, reliably; three if the airflow and wood are dialed, and I'd call that iffy. Plan to feed it overnight or accept a cold stretch before dawn. But slow-burned right — damper way down, long wood — I've had coals survive a full 8 hours of sleep and light the morning fire on their own. Heat all night? No. Fire on demand at dawn? Absolutely learnable. The engineered 8-hour heat log is still the dream project.
 
 **Is it safe to sleep with the stove burning?**
-It can be, if you treat it like the serious tool it is: spark arrestor cleaned daily, dry seasoned wood, damper set, and — my habit — sleep against the tipi wall with your face toward the floor gap, where the stove is pulling fresh outside air in low — right where your head is. Keep your bag well clear of the stove, too. If any of that sounds like too much effort, let the fire die before you sleep.
+It can be, if you treat it like the serious tool it is: spark arrestor cleaned daily, dry seasoned wood, damper set, and — my habit — sleep against the tipi wall with your face toward the floor gap, where the stove is pulling fresh outside air in low — right where your head is. Keep your bag well clear of the stove, too. And carry a small battery CO detector — ounces, dollars, and it watches the one failure mode you can't. If any of that sounds like too much effort, let the fire die before you sleep.
 
 **Why no floor and no bug net?**
 I melted a KUIU tent running a stove in it. Less flammable material near the fire is the whole design philosophy. Floorless also lets you dig a flat bed and keeps that life-saving fresh-air gap at the skirt — just don't bed down in a dip where rainwater can pool. A warm stove keeps bug pressure surprisingly low on its own. I may add the PEAX Half Nest ($260 — bug mesh over the sleeping half only) and will report how it lives next to a stove.
