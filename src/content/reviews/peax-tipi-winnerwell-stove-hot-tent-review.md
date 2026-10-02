@@ -3,7 +3,7 @@ title: "Two Years in a PEAX Dyneema Tipi with a Winnerwell Titanium Stove: The H
 description: "I melted a KUIU tent, folded a stove pipe in half, and still won't camp any other way. Two years of real use in the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove — failures, fixes, and all."
 pubDate: 2026-09-28
 gear: ["PEAX Solitude 4 Tipi (Dyneema)", "Winnerwell Fastfold Titanium Stove", "PEAX Solitude 4 Half Nest"]
-verdict: "The best backcountry shelter system I've ever run — a ~6-7 lb hot tent that turns miserable trips into good ones — but it's for people willing to learn, not a pop-and-go system."
+verdict: "The best backcountry shelter system I've ever run — an about-7-lb hot tent that turns miserable trips into good ones — but it's for people willing to learn, not a pop-and-go system."
 rating: 5
 draft: false
 ---
@@ -28,7 +28,7 @@ One favor before we start: read this one all the way to the end. The cozy storie
 - **Shelter:** PEAX Solitude 4 Tipi in Dyneema. Shelter body alone is right around 2 lbs (PEAX lists it at 1 lb 14.2 oz; packed weight with the carbon center pole, 12 stakes, cording, and bags is 3 lb 5.9 oz). Current price: $1,325. I ordered mine with no bug net and no floor — more on why below. It pitches off a carbon center pole, and trekking poles rig in alongside it for extra stabilization — they work together, not as a replacement.
 - **Stove:** Winnerwell Fastfold Titanium 15-inch box stove — 4 lbs for stove + chimney, $599, with a 3-inch-diameter, 108-inch rolled pipe. I deliberately went with the bigger firebox: a longer box takes longer sticks, and longer sticks mean longer burns. One honest gripe: it burns great and it's easy to run, but it doesn't pack down as neatly as you'd hope — a little awkward in the pack. Still worth it, every trip.
 - **Pipe:** the 9-foot chimney. That's not overkill — a tall pipe puts the exit well above the tipi so hot ash isn't raining down on your Dyneema.
-- **Whole system, real-world:** about 6–7 lbs on my scale, everything included. Read that again. A heated, standing-height, four-person shelter for the weight of some solo tent-and-pad setups.
+- **Whole system, real-world:** about 7 lbs on my scale, everything included. Read that again. A heated, standing-height, four-person shelter for the weight of some solo tent-and-pad setups.
 
 The tipi sleeps four with no gear, but realistically it's two people plus gear plus the stove, and that's how I run it.
 
@@ -144,7 +144,7 @@ I mean this sincerely, not as reverse psychology:
 
 ## Verdict
 
-Two years, every trip, one melted KUIU tent behind me and one folded stove pipe on my own scorecard: the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove is the best shelter system I have ever used, full stop. Roughly 6–7 lbs buys you a heated, standing-height shelter, unlimited hot water, built-in bug incineration, and the kind of comfort that put my girlfriend's dad back on the mountain. Nothing better. No comparison.
+Two years, every trip, one melted KUIU tent behind me and one folded stove pipe on my own scorecard: the PEAX Solitude 4 Dyneema tipi with a Winnerwell titanium stove is the best shelter system I have ever used, full stop. About 7 lbs buys you a heated, standing-height shelter, unlimited hot water, built-in bug incineration, and the kind of comfort that put my girlfriend's dad back on the mountain. Nothing better. No comparison.
 
 But it's a system you operate, not a product you use. That's not a flaw — for me it's half the fun. I don't test cheap gear; I test the best I can find, and dialing it in is the hobby inside the hobby. Learn the stove, clean the arrestor daily, pick your sites, stake it like you mean it, and carry patches. Do that, and you'll wonder how you ever camped cold.
 
@@ -166,7 +166,7 @@ Dyneema if the budget allows: no stretch, no sag when wet, absurdly strong for u
 Height. The exit sits well above the tipi, so sparks and hot ash burn out or blow clear instead of landing on your shelter. After the melted-tent incident, I don't compromise here. Just stake the pipe's guy line — ask me how I know.
 
 **Can one person carry the whole system?**
-Yes. Tipi packed with pole and stakes is about 3.5 lbs, stove and pipe about 4 lbs — my whole real-world system is 6–7 lbs. Split between two hunters it disappears entirely.
+Yes. Tipi packed with pole and stakes is about 3.5 lbs, stove and pipe about 4 lbs — my whole real-world system is about 7 lbs. Split between two hunters it disappears entirely.
 
 ---
 
